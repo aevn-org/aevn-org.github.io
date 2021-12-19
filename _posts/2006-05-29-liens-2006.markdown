@@ -1,0 +1,116 @@
+---
+layout: post
+title: Liens 2006
+joomla_id: 22
+joomla_url: liens-2006
+date: 2006-05-29 17:09:47.000000000 +02:00
+author: Administrator
+excerpt: "<p style=\"text-align: center;\"><span style=\"color: #ff0000;\"><strong><span
+  style=\"font-size: medium;\">Liste des   anciens numéros de liens 2006<br /></span></strong>
+\r\n<p
+  style=\"text-align: left;\"><br /> <span style=\"font-family: Arial,Helvetica,sans-serif;
+  font-size: x-small;\">Cliquez          sur  l'image pour voir ou sauvegarder le
+  bulletin  d'information. 
+\r\n<table style=\"width: 100%; height: 900px;\"
+  border=\"0\">\r\n<tbody>\r\n<tr>\r\n<td><a href=\"images/aevn_lien/lien101.pdf\"><img
+  class=\"caption\" src=\"images/stories/lien 101.png\" border=\"0\" alt=\"Lien 101
+  Janvier 2006\" title=\"Lien 101 Janvier 2006\" width=\"219\" height=\"281\" /></a></td>\r\n<td>numéro
+  101 Janvier 2006</td>\r\n<td>\r\n<p>A l’écoute de leur silence</p>\r\n<p>Le soleil
+  se lève sur Dong Hoi</p>\r\n<p>La province de Quang Binh en chiffres</p>\r\n<p>Concert
+  de musique classique</p>\r\n<p>Une nouvelle vie à Thuy Xuân</p>\r\n<p>Thuy Xuân
+  à l’heure de Noël</p>\r\n<p>Les enfants du Vietnam au coeur de<br />notre voyage
+  (suite)</p>\r\n<p>Dalat à travers les générations</p>\r\n<p>Les étudiants vietnamiens
+  en<br />campagne. Lettre du Vietnam</p>\r\n<p>Voyage au Vietnam</p>\r\n<p>Comment
+  aider les enfants du Vietnam</p>\r\n\r\n</td>\r\n</tr>\r\n<tr>\r\n<td colspan=\"3\">\r\n<hr
+  />\r\n</td>\r\n</tr>\r\n<tr>\r\n<td><a href=\"images/aevn_lien/lien102.pdf\"><img
+  src=\"images/stories/lien 102.png\" border=\"0\" alt=\"Lien 102 Mai 2006\" title=\"Lien
+  102 Mai 2006\" /></a></td>\r\n<td>Numéro 102 Mai 2006</td>\r\n<td>\r\n<p>L’hymne
+  à la joie</p>\r\n<p>Le Village de Dong Hoi, un havre de paix pour les enfants</p>\r\n<p>La
+  Boulangerie française de Hué :<br />une nouvelle étape</p>\r\n<p>Les mains dans
+  la farine</p>\r\n<p>La Femme à l’honneur</p>\r\n<p>La broderie sur soie</p>\r\n<p>Forum
+  parrains / marraines / filleul(e)s</p>\r\n<p>Anecdote à Dalat / Prochain voyage
+  au Vietnam / Fête des mères et des pères</p>\r\n<p>Comment aider les enfants
+  du Vietnam</p>\r\n\r\n\r\n</td>\r\n</tr>\r\n<tr>\r\n<td colspan=\"3\">\r\n<hr
+  />\r\n</td>\r\n</tr>\r\n<tr>\r\n<td><a href=\"images/aevn_lien/lien103.pdf\"><img
+  src=\"images/stories/lien 103.png\" border=\"0\" alt=\"Lien 103 Octobre 2006\" title=\"Lien
+  103 Octobre 2006\" /></a><span id=\"__caret\">_</span></td>\r\n<td>Numéro 103 Octobre
+  2006</td>\r\n<td>\r\n<p>Thuong ou l’aimé</p>\r\n<p>Inauguration du Village d’Enfants
+  SOS de Dong Hoi</p>\r\n<p>Au Village de Dong Hoi ...</p>\r\n<p>De Dalat à Dong
+  Hoi</p>\r\n<p>Les nouvelles de Thuy Xuân</p>\r\n<p>Dalat sous la pluie</p>\r\n<p>En
+  route pour l’indépendance</p>\r\n<p>Thuy Xuân s’agrandit</p>\r\n<p>Six mois à
+  la « Bou », une expérience inoubliable</p>\r\n<p>Impressions de voyage au Vietnam</p>\r\n<p>Catalogue</p>\r\n<p>Bon
+  de participation</p>\r\n<p>Pour aider les enfants du Vietnam</p>\r\n</td>\r\n</tr>\r\n</tbody>\r\n</table>"
+category: Liens
+---
+<p style="text-align: center;"><span style="color: #ff0000;"><strong><span style="font-size: medium;">Liste des   anciens numéros de liens 2006<br /></span></strong>
+
+<p style="text-align: left;"><br /> <span style="font-family: Arial,Helvetica,sans-serif; font-size: x-small;">Cliquez          sur  l'image pour voir ou sauvegarder le bulletin  d'information. 
+
+<table style="width: 100%; height: 900px;" border="0">
+<tbody>
+<tr>
+<td><a href="/assets/images/aevn_lien/lien101.pdf"><img class="caption" src="/assets/images/stories/lien 101.png" border="0" alt="Lien 101 Janvier 2006" title="Lien 101 Janvier 2006" width="219" height="281" /></a></td>
+<td>numéro 101 Janvier 2006</td>
+<td>
+<p>A l’écoute de leur silence</p>
+<p>Le soleil se lève sur Dong Hoi</p>
+<p>La province de Quang Binh en chiffres</p>
+<p>Concert de musique classique</p>
+<p>Une nouvelle vie à Thuy Xuân</p>
+<p>Thuy Xuân à l’heure de Noël</p>
+<p>Les enfants du Vietnam au coeur de<br />notre voyage (suite)</p>
+<p>Dalat à travers les générations</p>
+<p>Les étudiants vietnamiens en<br />campagne. Lettre du Vietnam</p>
+<p>Voyage au Vietnam</p>
+<p>Comment aider les enfants du Vietnam</p>
+
+</td>
+</tr>
+<tr>
+<td colspan="3">
+<hr />
+</td>
+</tr>
+<tr>
+<td><a href="/assets/images/aevn_lien/lien102.pdf"><img src="/assets/images/stories/lien 102.png" border="0" alt="Lien 102 Mai 2006" title="Lien 102 Mai 2006" /></a></td>
+<td>Numéro 102 Mai 2006</td>
+<td>
+<p>L’hymne à la joie</p>
+<p>Le Village de Dong Hoi, un havre de paix pour les enfants</p>
+<p>La Boulangerie française de Hué :<br />une nouvelle étape</p>
+<p>Les mains dans la farine</p>
+<p>La Femme à l’honneur</p>
+<p>La broderie sur soie</p>
+<p>Forum parrains / marraines / filleul(e)s</p>
+<p>Anecdote à Dalat / Prochain voyage au Vietnam / Fête des mères et des pères</p>
+<p>Comment aider les enfants du Vietnam</p>
+
+
+</td>
+</tr>
+<tr>
+<td colspan="3">
+<hr />
+</td>
+</tr>
+<tr>
+<td><a href="/assets/images/aevn_lien/lien103.pdf"><img src="/assets/images/stories/lien 103.png" border="0" alt="Lien 103 Octobre 2006" title="Lien 103 Octobre 2006" /></a><span id="__caret">_</span></td>
+<td>Numéro 103 Octobre 2006</td>
+<td>
+<p>Thuong ou l’aimé</p>
+<p>Inauguration du Village d’Enfants SOS de Dong Hoi</p>
+<p>Au Village de Dong Hoi ...</p>
+<p>De Dalat à Dong Hoi</p>
+<p>Les nouvelles de Thuy Xuân</p>
+<p>Dalat sous la pluie</p>
+<p>En route pour l’indépendance</p>
+<p>Thuy Xuân s’agrandit</p>
+<p>Six mois à la « Bou », une expérience inoubliable</p>
+<p>Impressions de voyage au Vietnam</p>
+<p>Catalogue</p>
+<p>Bon de participation</p>
+<p>Pour aider les enfants du Vietnam</p>
+</td>
+</tr>
+</tbody>
+</table>

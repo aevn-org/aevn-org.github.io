@@ -1,0 +1,48 @@
+---
+layout: post
+title: Liens 2017
+joomla_id: 144
+joomla_url: liens-2017
+date: 2017-12-06 16:20:00.000000000 +01:00
+author: Donald CALAS
+excerpt: "<p style=\"text-align: center;\"><span style=\"font-size: 14pt;\"><strong><span
+  style=\"color: #ff0000;\">Numéro du \"Lien\" de décembre 2017</span></strong>
+\r\n<p> <span
+  style=\"font-size: 12pt;\">Cliquez sur l'image pour voir ou sauvegarder le bulletin
+  d'information. 
+\r\n<table style=\"height: 297px; width: 1035px;\">\r\n<tbody>\r\n<tr>\r\n<td
+  style=\"width: 572px; vertical-align: top;\">\r\n<p><span style=\"font-size: 12pt;\"><strong>Sommaire
+  du numéro 122:</strong>
+\r\n<p><span style=\"font-size: 12pt;\">2.   En
+  bref de l’équipe AEVN</span><span style=\"font-size: 12pt;\"><br />3.   Editorial</span><span
+  style=\"font-size: 12pt;\"><br />4.  Cérémonie de remise de médaille de l’Ordre de
+  l’Amitié au                  Professeur Odon Vallet<br />5.   Visite des dirigeants
+  du Vietnam au Village<br />6.   Nouvelles du Village SOS de Dong Hoi<br />7.   Nouvelles
+  du Village SOS de Hué<br />9.   Rénovation au Village SOS de Hué<br />11. Nouvelles
+  du Village SOS de Dalat<br />13. Retrouvailles Marraines, Parrains, Amis<br />14.
+  Voyages et visite à nos villages<br />17. Témoignages de Olivia, Antoine, D. Underhill<br
+  />24. Campagne de partage Noël 2017
+\r\n</td>\r\n<td style=\"width: 445px;
+  vertical-align: top;\"><a href=\"images/aevn_lien/lien-122.pdf\" target=\"_blank\"
+  rel=\"alternate noopener noreferrer\"><img src=\"images/stories/lien-122.png\" alt=\"Lien
+  2016\" width=\"256\" height=\"362\" /></a></td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n"
+category: Liens
+---
+<p style="text-align: center;"><span style="font-size: 14pt;"><strong><span style="color: #ff0000;">Numéro du "Lien" de décembre 2017</span></strong>
+
+<p> Cliquez sur l'image pour voir ou sauvegarder le bulletin d'information. 
+
+<table style="height: 297px; width: 1035px;">
+<tbody>
+<tr>
+<td style="width: 572px; vertical-align: top;">
+<p><strong>Sommaire du numéro 122:</strong>
+
+<p>2.   En bref de l’équipe AEVN</span><br />3.   Editorial</span><br />4.  Cérémonie de remise de médaille de l’Ordre de l’Amitié au                  Professeur Odon Vallet<br />5.   Visite des dirigeants du Vietnam au Village<br />6.   Nouvelles du Village SOS de Dong Hoi<br />7.   Nouvelles du Village SOS de Hué<br />9.   Rénovation au Village SOS de Hué<br />11. Nouvelles du Village SOS de Dalat<br />13. Retrouvailles Marraines, Parrains, Amis<br />14. Voyages et visite à nos villages<br />17. Témoignages de Olivia, Antoine, D. Underhill<br />24. Campagne de partage Noël 2017
+
+</td>
+<td style="width: 445px; vertical-align: top;"><a href="/assets/images/aevn_lien/lien-122.pdf" target="_blank" rel="alternate noopener noreferrer"><img src="/assets/images/stories/lien-122.png" alt="Lien 2016" width="256" height="362" /></a></td>
+</tr>
+</tbody>
+</table>
+

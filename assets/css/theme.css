@@ -10,9 +10,9 @@ body {
 	margin-top:30px;
 	min-height:400px;
 }
-.remove-site-content-margin {
+/* .remove-site-content-margin {
 	margin-top:-30px;
-}
+} */
 img {
 	max-width:100%;
 }
@@ -804,3 +804,8 @@ div.a2a_full_footer {display:none;}
 	 }
  }
  
+ .image-caption {
+	text-align: center;
+	font-size: .8rem;
+	color: light-grey;
+ }

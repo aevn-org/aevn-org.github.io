@@ -1,0 +1,110 @@
+---
+layout: post
+title: Liens 2007
+joomla_id: 21
+joomla_url: liens-2007
+date: 2007-05-28 16:53:55.000000000 +02:00
+author: Administrator
+excerpt: "<p style=\"text-align: center;\"><span style=\"color: #ff0000;\"><strong><span
+  style=\"font-size: medium;\">Liste des  anciens numéros de liens 2007<br /></span></strong>
+\r\n<p
+  style=\"text-align: left;\"><br /> <span style=\"font-family: Arial,Helvetica,sans-serif;
+  font-size: x-small;\">Cliquez         sur  l'image pour voir ou sauvegarder le bulletin
+  d'information. 
+\r\n<table style=\"width: 686px; height: 589px;\" border=\"0\">\r\n<tbody>\r\n<tr>\r\n<td><a
+  href=\"images/aevn_lien/lien104.pdf\"><img src=\"images/stories/lien104.png\" border=\"0\"
+  alt=\"lien 104\" title=\"Lien 104\" /></a><br /></td>\r\n<td>Lien N°104 Janvier
+  2007</td>\r\n<td>\r\n<p>Dans l’oeil du cyclone</p>\r\n<p>Têt ... de cochon</p>\r\n<p>Nouveaux
+  sourires à Dong Hoi</p>\r\n<p>Nouveaux aménagements à Dalat</p>\r\n<p>Un été
+  bien rempli</p>\r\n<p>Le Vietnam ... ça vous gagne</p>\r\n<p>Bienvenue à Thuy,
+  Ron et Bao</p>\r\n<p>Pièce de théâtre</p>\r\n<p>Quand le rêve devient réalité</p>\r\n<p>Une
+  note sucrée : gingembre confit</p>\r\n<p>Pour aider les enfants du Vietnam</p>\r\n\r\n\r\n</td>\r\n</tr>\r\n<tr>\r\n<td
+  colspan=\"3\">\r\n<hr />\r\n</td>\r\n</tr>\r\n<tr>\r\n<td><a href=\"images/aevn_lien/lien105.pdf\"><img
+  src=\"images/stories/lien105.png\" border=\"0\" alt=\"lien 105 Mai 2007\" title=\"Lien
+  105\" /></a></td>\r\n<td>Numéro 105 Mai 2007</td>\r\n<td>\r\n<p>Aux mères et pères
+  de notre planète !</p>\r\n<p>Visite guidée à Dong Hoi</p>\r\n<p>Simple bonheur</p>\r\n<p>Fête
+  des mères et des pères à Dalat</p>\r\n<p>Livres : offre spéciale</p>\r\n<p>De
+  retour d’Assouan ...</p>\r\n<p>En route pour la France</p>\r\n<p>Retrouvailles à
+  Thuy Xuân</p>\r\n<p>Forum parrains/marraines/filleul(e)s</p>\r\n<p>Salade de papaye
+  verte et crevettes</p>\r\n<p>Pour aider les enfants du Vietnam</p>\r\n\r\n<span
+  id=\"__caret\"> </span>\r\n\r\n</td>\r\n</tr>\r\n<tr>\r\n<td colspan=\"3\">\r\n<hr
+  />\r\n</td>\r\n</tr>\r\n<tr>\r\n<td><a href=\"images/aevn_lien/lien106.pdf\"><img
+  src=\"images/stories/lien106.png\" border=\"0\" alt=\"lien 106 Octobre 2007\" title=\"lien
+  106 Octobre 2007\" /></a></td>\r\n<td>Numéro 106 Octobre 2007</td>\r\n<td>\r\n<p>Une
+  ville au réveil</p>\r\n<p>Nouvelles de Dong Hoi</p>\r\n<p>Lettre de Nhat</p>\r\n<p>A
+  Thuy Xuan les récoltes sont bonnes</p>\r\n<p>Nouvelles de Dalat</p>\r\n<p>Mariage
+  de Oanh</p>\r\n<p>Concert de musique classique</p>\r\n<p>Noel 2007 : Campagne de
+  partage</p>\r\n</td>\r\n</tr>\r\n</tbody>\r\n</table>"
+category: Liens
+---
+<p style="text-align: center;"><span style="color: #ff0000;"><strong><span style="font-size: medium;">Liste des  anciens numéros de liens 2007<br /></span></strong>
+
+<p style="text-align: left;"><br /> <span style="font-family: Arial,Helvetica,sans-serif; font-size: x-small;">Cliquez         sur  l'image pour voir ou sauvegarder le bulletin d'information. 
+
+<table style="width: 686px; height: 589px;" border="0">
+<tbody>
+<tr>
+<td><a href="/assets/images/aevn_lien/lien104.pdf"><img src="/assets/images/stories/lien104.png" border="0" alt="lien 104" title="Lien 104" /></a><br /></td>
+<td>Lien N°104 Janvier 2007</td>
+<td>
+<p>Dans l’oeil du cyclone</p>
+<p>Têt ... de cochon</p>
+<p>Nouveaux sourires à Dong Hoi</p>
+<p>Nouveaux aménagements à Dalat</p>
+<p>Un été bien rempli</p>
+<p>Le Vietnam ... ça vous gagne</p>
+<p>Bienvenue à Thuy, Ron et Bao</p>
+<p>Pièce de théâtre</p>
+<p>Quand le rêve devient réalité</p>
+<p>Une note sucrée : gingembre confit</p>
+<p>Pour aider les enfants du Vietnam</p>
+
+
+</td>
+</tr>
+<tr>
+<td colspan="3">
+<hr />
+</td>
+</tr>
+<tr>
+<td><a href="/assets/images/aevn_lien/lien105.pdf"><img src="/assets/images/stories/lien105.png" border="0" alt="lien 105 Mai 2007" title="Lien 105" /></a></td>
+<td>Numéro 105 Mai 2007</td>
+<td>
+<p>Aux mères et pères de notre planète !</p>
+<p>Visite guidée à Dong Hoi</p>
+<p>Simple bonheur</p>
+<p>Fête des mères et des pères à Dalat</p>
+<p>Livres : offre spéciale</p>
+<p>De retour d’Assouan ...</p>
+<p>En route pour la France</p>
+<p>Retrouvailles à Thuy Xuân</p>
+<p>Forum parrains/marraines/filleul(e)s</p>
+<p>Salade de papaye verte et crevettes</p>
+<p>Pour aider les enfants du Vietnam</p>
+
+<span id="__caret"> </span>
+
+</td>
+</tr>
+<tr>
+<td colspan="3">
+<hr />
+</td>
+</tr>
+<tr>
+<td><a href="/assets/images/aevn_lien/lien106.pdf"><img src="/assets/images/stories/lien106.png" border="0" alt="lien 106 Octobre 2007" title="lien 106 Octobre 2007" /></a></td>
+<td>Numéro 106 Octobre 2007</td>
+<td>
+<p>Une ville au réveil</p>
+<p>Nouvelles de Dong Hoi</p>
+<p>Lettre de Nhat</p>
+<p>A Thuy Xuan les récoltes sont bonnes</p>
+<p>Nouvelles de Dalat</p>
+<p>Mariage de Oanh</p>
+<p>Concert de musique classique</p>
+<p>Noel 2007 : Campagne de partage</p>
+</td>
+</tr>
+</tbody>
+</table>

@@ -1,0 +1,27 @@
+---
+layout: post
+title: Concert 21 octobre 2012
+joomla_id: 58
+joomla_url: concert-21-octobre-2012
+date: 2012-09-17 23:00:00.000000000 +02:00
+author: Donald CALAS
+excerpt: "<p align=\"center\"><strong>Concert de musique Renaissance et Baroque le
+  21 octobre 2012<br /></strong></p>\r\n<p align=\"center\"><br />Chères Marraines,
+  Chers Parrains, Chers Amis,<br /><br /><br />Aide à L’Enfance du Vietnam vous invite
+  à un concert de musique Renaissance et Baroque interprété par l’Ensemble à la Ronde
+  et ses invités, du Conservatoire de Palaiseau, le dimanche 21 octobre à L’Eglise
+  Saint Matthieu de Bures-sur- Yvette (8 rue du Général Leclerc 91440 Bures-sur-Yvette),
+  à 16h00. RER B : Station Bures-sur-Yvette.<br /><br />Les bénéfices de cette manifestation
+  seront entièrement reversés à L’association en faveur des enfants déshérités du
+  Vietnam.<br /><br />Venez nombreux accompagnés de vos proches et amis.<br /><br
+  />A très bientôt,<br />L’équipe AEVN.</p>\r\n<p align=\"center\"> </p>\r\n<p><img
+  src=\"images/photos_evenements/concert-21octobre2012.jpg\" border=\"0\" alt=\"Concert
+  21 octobre 2012\" title=\"Concert 21 octobre 2012\" width=\"1273\" height=\"904\"
+  style=\"border: 0px none;\" /></p>\r\n<p align=\"center\"><strong> </strong></p>"
+category: Evénements
+---
+<p align="center"><strong>Concert de musique Renaissance et Baroque le 21 octobre 2012<br /></strong></p>
+<p align="center"><br />Chères Marraines, Chers Parrains, Chers Amis,<br /><br /><br />Aide à L’Enfance du Vietnam vous invite à un concert de musique Renaissance et Baroque interprété par l’Ensemble à la Ronde et ses invités, du Conservatoire de Palaiseau, le dimanche 21 octobre à L’Eglise Saint Matthieu de Bures-sur- Yvette (8 rue du Général Leclerc 91440 Bures-sur-Yvette), à 16h00. RER B : Station Bures-sur-Yvette.<br /><br />Les bénéfices de cette manifestation seront entièrement reversés à L’association en faveur des enfants déshérités du Vietnam.<br /><br />Venez nombreux accompagnés de vos proches et amis.<br /><br />A très bientôt,<br />L’équipe AEVN.</p>
+<p align="center"> </p>
+<p><img src="/assets/images/photos_evenements/concert-21octobre2012.jpg" border="0" alt="Concert 21 octobre 2012" title="Concert 21 octobre 2012" width="1273" height="904" style="border: 0px none;" /></p>
+<p align="center"><strong> </strong></p>

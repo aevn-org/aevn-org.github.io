@@ -1,0 +1,63 @@
+---
+layout: post
+title: Liens 2013
+joomla_id: 63
+joomla_url: liens-2013
+date: 2013-06-09 23:00:00.000000000 +02:00
+author: Administrator
+excerpt: "<p style=\"text-align: center;\"><span style=\"color: #ff0000;\"><strong><span
+  style=\"font-size: medium;\">Liste des numéros de liens de 2013<br /></span></strong>
+\r\n<p
+  style=\"text-align: left;\"><br /><span style=\"font-family: Arial,Helvetica,sans-serif;
+  font-size: x-small;\">Cliquez sur l'image pour voir ou sauvegarder le bulletin d'information.
+  
+\r\n<table style=\"width: 698px; height: 286px;\" border=\"0\">\r\n<tbody>\r\n<tr>\r\n<td><a
+  href=\"images/aevn_lien/lien-118.pdf\" target=\"_blank\"><img src=\"images/stories/lien-118.png\"
+  border=\"0\" alt=\"Lien 118\" width=\"214\" height=\"300\" style=\"border: 0px none;\"
+  /></a></td>\r\n<td>\r\n<p>Lien N° 118</p>\r\n<p>décembre</p>\r\n<p>2013</p>\r\n</td>\r\n<td>\r\n\r\n<p>En
+  bref de l’équipe AEVN<br />Changement et Continuité<br />Nouvelles des Villages<br
+  />Une belle rencontre à Thuy Xuan<br />\"Main à la Pâte\"et mon séjour à Thuy Xuan<br
+  />Notre périple cet été<br />Fête de la mi-automne<br />Mon expérience à Thuy Xuan<br
+  />Marraine au-delà du parrainage<br />Trois mariages à Thuy Xuan<br />Lettres d'enfants<br
+  />Livres, cartes lettres, posters</p>\r\n\r\n</td>\r\n</tr>\r\n<tr>\r\n<td><a
+  href=\"images/aevn_lien/lien-117.pdf\" target=\"_blank\"><img src=\"images/stories/lien-117.png\"
+  border=\"0\" alt=\"Lien 117\" width=\"212\" height=\"300\" style=\"border: 0px none;\"
+  /></a></td>\r\n<td>\r\n<p>Lien N° 117</p>\r\n<p>mai 2013</p>\r\n</td>\r\n<td>\r\n<p>En
+  bref de l’équipe AEVN<br />Editorial : De l’importance de la formation pour l’envol
+  de nos jeunes<br />Manifestations organisées par l’AEVN<br />Nouvelles des Villages<br
+  />La Boulangerie recrute !<br />Pour maintenir le Lien<br />Visite de la famille
+  Bui au grand complet à Thuy Xuan<br />Un voyage à travers le Vietnam<br />Pensez
+  à nos livres, cartes lettres et posters</p>\r\n</td>\r\n</tr>\r\n</tbody>\r\n</table>"
+category: Liens
+---
+<p style="text-align: center;"><span style="color: #ff0000;"><strong><span style="font-size: medium;">Liste des numéros de liens de 2013<br /></span></strong>
+
+<p style="text-align: left;"><br /><span style="font-family: Arial,Helvetica,sans-serif; font-size: x-small;">Cliquez sur l'image pour voir ou sauvegarder le bulletin d'information. 
+
+<table style="width: 698px; height: 286px;" border="0">
+<tbody>
+<tr>
+<td><a href="/assets/images/aevn_lien/lien-118.pdf" target="_blank"><img src="/assets/images/stories/lien-118.png" border="0" alt="Lien 118" width="214" height="300" style="border: 0px none;" /></a></td>
+<td>
+<p>Lien N° 118</p>
+<p>décembre</p>
+<p>2013</p>
+</td>
+<td>
+
+<p>En bref de l’équipe AEVN<br />Changement et Continuité<br />Nouvelles des Villages<br />Une belle rencontre à Thuy Xuan<br />"Main à la Pâte"et mon séjour à Thuy Xuan<br />Notre périple cet été<br />Fête de la mi-automne<br />Mon expérience à Thuy Xuan<br />Marraine au-delà du parrainage<br />Trois mariages à Thuy Xuan<br />Lettres d'enfants<br />Livres, cartes lettres, posters</p>
+
+</td>
+</tr>
+<tr>
+<td><a href="/assets/images/aevn_lien/lien-117.pdf" target="_blank"><img src="/assets/images/stories/lien-117.png" border="0" alt="Lien 117" width="212" height="300" style="border: 0px none;" /></a></td>
+<td>
+<p>Lien N° 117</p>
+<p>mai 2013</p>
+</td>
+<td>
+<p>En bref de l’équipe AEVN<br />Editorial : De l’importance de la formation pour l’envol de nos jeunes<br />Manifestations organisées par l’AEVN<br />Nouvelles des Villages<br />La Boulangerie recrute !<br />Pour maintenir le Lien<br />Visite de la famille Bui au grand complet à Thuy Xuan<br />Un voyage à travers le Vietnam<br />Pensez à nos livres, cartes lettres et posters</p>
+</td>
+</tr>
+</tbody>
+</table>

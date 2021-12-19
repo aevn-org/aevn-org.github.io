@@ -1,0 +1,57 @@
+---
+layout: post
+title: Liens 2018
+joomla_id: 155
+joomla_url: liens-2018
+date: 2018-12-01 17:09:59.000000000 +01:00
+author: Donald CALAS
+excerpt: "<p style=\"text-align: center;\"><span style=\"font-size: 14pt; color: #ff0000;\"><strong>Numéro
+  du \"Lien\" de décembre 2018</strong>
+\r\n<p><span style=\"font-size:
+  12pt;\">Cliquez sur l'image pour voir ou sauvegarder le bulletin d'information.
+\r\n<table
+  style=\"width: 1061px;\">\r\n<tbody>\r\n<tr style=\"height: 152.469px;\">\r\n<td
+  style=\"width: 572px; height: 152.469px; vertical-align: top;\">\r\n<p> <span style=\"font-size:
+  12pt;\"><strong>Sommaire du numéro 123:</strong>
+\r\n<p><span style=\"font-size:
+  12pt;\">2. En bref de l’équipe AEVN</span><br /><span style=\"font-size: 12pt;\">3.
+  Editorial</span><br /><span style=\"font-size: 12pt;\">5. Merci Hélène d’être venue
+  dans nos coeurs</span><br /><span style=\"font-size: 12pt;\">7. Présentation générale
+  des trois Villages</span><br /><span style=\"font-size: 12pt;\">8. Nouvelles du
+  Village SOS de Dalat</span><br /><span style=\"font-size: 12pt;\">8. Nouvelles du
+  Village SOS de Dong Hoi</span><br /><span style=\"font-size: 12pt;\">9. Nouvelles
+  du Village SOS de Hué</span><br /><span style=\"font-size: 12pt;\">11. Travaux de
+  rénovation et de restauration du Village SOS de Hué</span><br /><span style=\"font-size:
+  12pt;\">12. Visite du Professeur t’Hooft et de Mme t’Hooft à Dalat</span><br /><span
+  style=\"font-size: 12pt;\">14. Visite du Professeur Finn Kydland et de Mme Kydland
+  à Hué</span><br /><span style=\"font-size: 12pt;\">15. Départ de Corinne Barcelo</span><br
+  /><span style=\"font-size: 12pt;\">16. La visite de mon Parrain</span><br /><span
+  style=\"font-size: 12pt;\">17. Marraine à 20 ans et depuis…</span><br /><span style=\"font-size:
+  12pt;\">18. « C’est mon Parrain ! »</span><br /><span style=\"font-size: 12pt;\">19.
+  Yen, une ancienne de Thuy Xuan en Bavière</span><br /><span style=\"font-size: 12pt;\">20.
+  Visite à nos villages, cet été17
+\r\n</td>\r\n<td style=\"width: 459px;
+  height: 152.469px;\"><span style=\"font-size: 12.16px;\"><a title=\"Lien décembre
+  2018\" href=\"images/aevn_lien/lien-123.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"><span
+  style=\"font-family: Tahoma, Helvetica, Arial, sans-serif;\"><img title=\"Lien de
+  décembre 2018\" src=\"images/stories/lien-123.png\" alt=\"Lien de décembre 2018\"
+  width=\"256\" height=\"352\" /></span></a></span></td>\r\n</tr>\r\n</tbody>\r\n</table>"
+category: Liens
+---
+<p style="text-align: center;"><span style="font-size: 14pt; color: #ff0000;"><strong>Numéro du "Lien" de décembre 2018</strong>
+
+<p>Cliquez sur l'image pour voir ou sauvegarder le bulletin d'information.
+
+<table style="width: 1061px;">
+<tbody>
+<tr style="height: 152.469px;">
+<td style="width: 572px; height: 152.469px; vertical-align: top;">
+<p> <strong>Sommaire du numéro 123:</strong>
+
+<p>2. En bref de l’équipe AEVN</span><br />3. Editorial</span><br />5. Merci Hélène d’être venue dans nos coeurs</span><br />7. Présentation générale des trois Villages</span><br />8. Nouvelles du Village SOS de Dalat</span><br />8. Nouvelles du Village SOS de Dong Hoi</span><br />9. Nouvelles du Village SOS de Hué</span><br />11. Travaux de rénovation et de restauration du Village SOS de Hué</span><br />12. Visite du Professeur t’Hooft et de Mme t’Hooft à Dalat</span><br />14. Visite du Professeur Finn Kydland et de Mme Kydland à Hué</span><br />15. Départ de Corinne Barcelo</span><br />16. La visite de mon Parrain</span><br />17. Marraine à 20 ans et depuis…</span><br />18. « C’est mon Parrain ! »</span><br />19. Yen, une ancienne de Thuy Xuan en Bavière</span><br />20. Visite à nos villages, cet été17
+
+</td>
+<td style="width: 459px; height: 152.469px;"><span style="font-size: 12.16px;"><a title="Lien décembre 2018" href="/assets/images/aevn_lien/lien-123.pdf" target="_blank" rel="noopener noreferrer"><span style="font-family: Tahoma, Helvetica, Arial, sans-serif;"><img title="Lien de décembre 2018" src="/assets/images/stories/lien-123.png" alt="Lien de décembre 2018" width="256" height="352" /></span></a></span></td>
+</tr>
+</tbody>
+</table>

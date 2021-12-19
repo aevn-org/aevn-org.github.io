@@ -1,0 +1,56 @@
+---
+layout: post
+title: Liens 2016
+joomla_id: 132
+joomla_url: liens-2016
+date: 2016-11-30 17:43:56.000000000 +01:00
+author: Donald CALAS
+excerpt: "<p style=\"text-align: center;\"><span style=\"font-size: 14pt;\"><strong><span
+  style=\"color: #ff0000;\">Numéro du \"Lien\" de novembre 2016</span></strong>
+\r\n<p> <span
+  style=\"font-size: 12pt;\">Cliquez sur l'image pour voir ou sauvegarder le bulletin
+  d'information. 
+\r\n<table style=\"height: 297px; width: 1035px;\">\r\n<tbody>\r\n<tr>\r\n<td
+  style=\"width: 572px; vertical-align: top;\">\r\n<p><span style=\"font-size: 12pt;\"><strong>Sommaire
+  du numéro 121:</strong>
+\r\n<p><span style=\"font-size: 12pt;\">En bref
+  de l’équipe AEVN</span><br /><span style=\"font-size: 12pt;\">Editorial</span><br
+  /><span style=\"font-size: 12pt;\">Hélène Catroux auprès des enfants de nos villages</span><br
+  /><span style=\"font-size: 12pt;\">Inauguration des 4 maisons du Village de Huê</span><br
+  /><span style=\"font-size: 12pt;\">Notre périple cet été</span><br /><span style=\"font-size:
+  12pt;\">Nouvelles des villages : Dalat, Huê, Dong Hoi</span><br /><span style=\"font-size:
+  12pt;\">A la rencontre de nos filleuls et protégés</span><br /><span style=\"font-size:
+  12pt;\">Si loin, mais si proche</span><br /><span style=\"font-size: 12pt;\">Visites
+  des scientifiques au Village de Huê</span><br /><span style=\"font-size: 12pt;\">Une
+  action caritative promue par une ancienne du Village de Dalat</span><br /><span
+  style=\"font-size: 12pt;\">Témoignage de Tran Thi Hoang Oanh</span><br /><span style=\"font-size:
+  12pt;\">Visite des enfants du Village de Huê à Quy Nhon</span><br /><span style=\"font-size:
+  12pt;\">Le Quatuor Vilain avec un coeur sur la main</span><br /><span style=\"font-size:
+  12pt;\">Campagne de partage Noël 2016
+\r\n\r\n\r\n\r\n</td>\r\n<td
+  style=\"width: 445px; vertical-align: top;\"><a href=\"images/aevn_lien/lien-121.pdf\"
+  target=\"_blank\" rel=\"alternate\"><img src=\"images/stories/lien-121.png\" alt=\"Lien
+  2016\" width=\"250\" height=\"375\" /></a></td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n"
+category: Liens
+---
+<p style="text-align: center;"><span style="font-size: 14pt;"><strong><span style="color: #ff0000;">Numéro du "Lien" de novembre 2016</span></strong>
+
+<p> Cliquez sur l'image pour voir ou sauvegarder le bulletin d'information. 
+
+<table style="height: 297px; width: 1035px;">
+<tbody>
+<tr>
+<td style="width: 572px; vertical-align: top;">
+<p><strong>Sommaire du numéro 121:</strong>
+
+<p>En bref de l’équipe AEVN</span><br />Editorial</span><br />Hélène Catroux auprès des enfants de nos villages</span><br />Inauguration des 4 maisons du Village de Huê</span><br />Notre périple cet été</span><br />Nouvelles des villages : Dalat, Huê, Dong Hoi</span><br />A la rencontre de nos filleuls et protégés</span><br />Si loin, mais si proche</span><br />Visites des scientifiques au Village de Huê</span><br />Une action caritative promue par une ancienne du Village de Dalat</span><br />Témoignage de Tran Thi Hoang Oanh</span><br />Visite des enfants du Village de Huê à Quy Nhon</span><br />Le Quatuor Vilain avec un coeur sur la main</span><br />Campagne de partage Noël 2016
+
+
+
+
+</td>
+<td style="width: 445px; vertical-align: top;"><a href="/assets/images/aevn_lien/lien-121.pdf" target="_blank" rel="alternate"><img src="/assets/images/stories/lien-121.png" alt="Lien 2016" width="250" height="375" /></a></td>
+</tr>
+</tbody>
+</table>
+

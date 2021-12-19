@@ -1,0 +1,68 @@
+---
+layout: post
+title: Liens 2008
+joomla_id: 15
+joomla_url: liens-2008
+date: 2008-05-05 06:33:33.000000000 +02:00
+author: Administrator
+excerpt: "<p style=\"text-align: center;\"><span style=\"color: #ff0000;\"><strong><span
+  style=\"font-size: medium;\">Liste des anciens numéros de liens</span></strong>
+\r\n<p
+  style=\"text-align: left;\"><br /> <span style=\"font-family: Arial,Helvetica,sans-serif;
+  font-size: x-small;\">Cliquez        sur  l'image pour voir ou sauvegarder le bulletin
+  d'information. 
+\r\n<table style=\"width: 686px; height: 300px;\" border=\"0\">\r\n<tbody>\r\n<tr>\r\n<td><img
+  src=\"images/stories/lien108.png\" border=\"0\" /></td>\r\n<td>Lien N°108 Octobre
+  2008</td>\r\n<td>\r\n<p>Un havre de paix pour enfants</p>\r\n<p>Au revoir Claire</p>\r\n<p>Nouvelles
+  des Villages</p>\r\n<p>Réunion avec des Parrains et Marraines</p>\r\n<p>Projet
+  de voyage au Vietnam</p>\r\n<p>Christine Pélissier, la grande sœur de Thuy Xuan</p>\r\n<p>ALLEZ!
+  Parrains et Marraines</p>\r\n<p>Livres et Cartes de vœux</p>\r\n<p>Campagne de partage</p>\r\n<p>Fête
+  de la musique à Paris 16</p>\r\n<p>Exposition de peinture</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td><a
+  href=\"images/aevn_lien/lien107.pdf\" title=\"/images/aevn_lien\"><img src=\"images/stories/capture
+  dcran 2010-05-04  21.21.34.png\" border=\"0\" alt=\"Lien N°107\" /></a></td>\r\n<td>Numéro
+  107 Février 2008</td>\r\n<td>\r\n<p>Le semeur</p>\r\n<p>Bilan d’activité de la
+  FISOS au Vietnam</p>\r\n<p>1968-2008 quelques repères sur la longue route</p>\r\n<p>Compte
+  rendu du concert de musique classique</p>\r\n<p>Reunion de Printemps Invitation
+  Soirée Théâtre:Les 7 de la Cité</p>\r\n<p>Forum AEVN</p>\r\n<p>Coopération
+  entre les villes Blois et Hue</p>\r\n<p>Pour aider les enfants du Vietnam</p>\r\n</td>\r\n</tr>\r\n</tbody>\r\n</table>"
+category: Liens
+---
+<p style="text-align: center;"><span style="color: #ff0000;"><strong><span style="font-size: medium;">Liste des anciens numéros de liens</span></strong>
+
+<p style="text-align: left;"><br /> <span style="font-family: Arial,Helvetica,sans-serif; font-size: x-small;">Cliquez        sur  l'image pour voir ou sauvegarder le bulletin d'information. 
+
+<table style="width: 686px; height: 300px;" border="0">
+<tbody>
+<tr>
+<td><img src="/assets/images/stories/lien108.png" border="0" /></td>
+<td>Lien N°108 Octobre 2008</td>
+<td>
+<p>Un havre de paix pour enfants</p>
+<p>Au revoir Claire</p>
+<p>Nouvelles des Villages</p>
+<p>Réunion avec des Parrains et Marraines</p>
+<p>Projet de voyage au Vietnam</p>
+<p>Christine Pélissier, la grande sœur de Thuy Xuan</p>
+<p>ALLEZ! Parrains et Marraines</p>
+<p>Livres et Cartes de vœux</p>
+<p>Campagne de partage</p>
+<p>Fête de la musique à Paris 16</p>
+<p>Exposition de peinture</p>
+</td>
+</tr>
+<tr>
+<td><a href="/assets/images/aevn_lien/lien107.pdf" title="/images/aevn_lien"><img src="/assets/images/stories/capture dcran 2010-05-04  21.21.34.png" border="0" alt="Lien N°107" /></a></td>
+<td>Numéro 107 Février 2008</td>
+<td>
+<p>Le semeur</p>
+<p>Bilan d’activité de la FISOS au Vietnam</p>
+<p>1968-2008 quelques repères sur la longue route</p>
+<p>Compte rendu du concert de musique classique</p>
+<p>Reunion de Printemps Invitation Soirée Théâtre:Les 7 de la Cité</p>
+<p>Forum AEVN</p>
+<p>Coopération entre les villes Blois et Hue</p>
+<p>Pour aider les enfants du Vietnam</p>
+</td>
+</tr>
+</tbody>
+</table>

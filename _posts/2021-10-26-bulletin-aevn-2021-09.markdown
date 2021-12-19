@@ -1,0 +1,30 @@
+---
+layout: post
+title: Bulletin AEVN numéro 3 (juil.-sept. 2021) 
+joomla_id: 177
+joomla_url: bulletin-aevn-2021-09
+date: 2021-10-26 00:00:00.000000000 +02:00
+author: Donald CALAS
+category: Nouvelles des villages et des actions de l'AEVN
+image: assets/images/aevn_bulletins/Bulletin_AEVN_2021_09.jpg
+tags: [featured]
+---
+
+Le Bulletin AEVN numéro 3 est sorti.
+
+Cliquez sur l'image pour voir ou sauvegarder le bulletin d'information.
+
+## Sommaire :
+
+| **Actualités**        |            |
+| Félicitations aux étudiants!      | 2 |
+| Rencontre avec des ex-INSA     | 2      |
+| Fête de la Lune | 3      |
+| Souvenirs de l'été | 4-5      |
+| **Coin de partage** |       |
+| Préparation du BAC | 6-7      |
+| Poursuivre son rêve | 7-8      |
+| Été Covid, Rubik | 9      |
+
+
+<a title="Bulletin AEVN septembre 2021" href="/assets/images/aevn_bulletins/Bulletin_AEVN_2021_09.pdf" target="_blank" rel="noopener noreferrer"><img title="Bulletin AEVN septembre 2021" src="/assets/images/aevn_bulletins/Bulletin_AEVN_2021_09.jpg" alt="Bulletin AEVN septembre 2021" width="480" height="660" /></a>
