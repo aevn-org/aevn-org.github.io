@@ -6,7 +6,7 @@ joomla_url: bulletin-aevn-2021-09
 date: 2021-10-26 00:00:00.000000000 +02:00
 author: Donald CALAS
 category: Nouvelles des villages et des actions de l'AEVN
-image: assets/images/aevn_bulletins/Bulletin_AEVN_2021_09.jpg
+image: assets/images/aevn_bulletins/Bulletin_AEVN_2021_09_cover.png
 tags: [featured]
 ---
 

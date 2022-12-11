@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "L'AEVN rénove entièrement la bibliothèque du Village d’Enfants SOS de Hué"
-image: assets/images/photos-articles/nouvelles_villages/Hue_Bibliotheque/Hue_Bibliotheque2.jpg
+image: assets/images/photos-articles/nouvelles_villages/Hue_Bibliotheque/Hue_Bibliotheque3.jpg
 category: Nouvelles des villages et des actions de l'AEVN
 ---
 

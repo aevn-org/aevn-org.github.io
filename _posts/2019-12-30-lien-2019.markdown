@@ -5,32 +5,8 @@ joomla_id: 164
 joomla_url: lien-2019
 date: 2019-12-30 16:38:49.000000000 +01:00
 author: Donald CALAS
-excerpt: "<p style=\"text-align: center;\"><span style=\"font-size: 14pt; color: #ff0000;\"><strong>Numéro
-  du \"Lien\" de décembre 2019</strong>
-\r\n<p><span style=\"font-size:
-  12pt;\">Cliquez sur l'image pour voir ou sauvegarder le bulletin d'information.
-\r\n<p><span
-  style=\"font-size: 12pt;\">Sommaire du numéro 124:
-\r\n\r\n<table
-  style=\"width: 1022px;\">\r\n<tbody>\r\n<tr>\r\n<td style=\"width: 571px;\"><span
-  style=\"font-size: 12pt;\">2. En bref de l'équipe AEVN</span><br /><span style=\"font-size:
-  12pt;\">3. Éditorial</span><br /><span style=\"font-size: 12pt;\">4. Présentation
-  générale des trois Villages</span><br /><span style=\"font-size: 12pt;\">4. Visite
-  du groupe parlementaire d'Amité France-Vietnam au Village SOS de Hué</span><br /><span
-  style=\"font-size: 12pt;\">5. Cet été, aux Villages avec nos enfants et nos Mères</span><br
-  /><span style=\"font-size: 12pt;\">7. La famille, le plus magnifique cadeau de ma
-  vie</span><br /><span style=\"font-size: 12pt;\">8. Témoignage de Duong Tu</span><br
-  /><span style=\"font-size: 12pt;\">9. Voyage au Vietnam, avec mes filleul(e)s</span><br
-  /><span style=\"font-size: 12pt;\">10. Nouvelles du Village SOS de Dalat</span><br
-  /><span style=\"font-size: 12pt;\">11. Nouvelles du Village SOS de Dong Hoi</span><br
-  /><span style=\"font-size: 12pt;\">13. Nouvelles du Village SOS de Hué</span><br
-  /><span style=\"font-size: 12pt;\">14. Souvenirs d'un groupe de jeunes français
-  à leurs amis du Village SOS de Hué</span></td>\r\n<td style=\"width: 471px; vertical-align:
-  middle;\"><span style=\"font-size: 12pt;\"> <a title=\"Lien décembre 2019\" href=\"images/aevn_lien/lien-124.pdf\"
-  target=\"_blank\" rel=\"noopener noreferrer\"><img title=\"Lien de décembre 2019\"
-  src=\"images/stories/lien-124.png\" alt=\"Lien de décembre 2019\" width=\"256\"
-  height=\"352\" /></a></span></td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n"
 category: Liens
+image: assets/images/stories/lien-124.png
 ---
 <p style="text-align: center;"><span style="font-size: 14pt; color: #ff0000;"><strong>Numéro du "Lien" de décembre 2019</strong>
 
@@ -42,8 +18,8 @@ category: Liens
 <table style="width: 1022px;">
 <tbody>
 <tr>
-<td style="width: 571px;">2. En bref de l'équipe AEVN</span><br />3. Éditorial</span><br />4. Présentation générale des trois Villages</span><br />4. Visite du groupe parlementaire d'Amité France-Vietnam au Village SOS de Hué</span><br />5. Cet été, aux Villages avec nos enfants et nos Mères</span><br />7. La famille, le plus magnifique cadeau de ma vie</span><br />8. Témoignage de Duong Tu</span><br />9. Voyage au Vietnam, avec mes filleul(e)s</span><br />10. Nouvelles du Village SOS de Dalat</span><br />11. Nouvelles du Village SOS de Dong Hoi</span><br />13. Nouvelles du Village SOS de Hué</span><br />14. Souvenirs d'un groupe de jeunes français à leurs amis du Village SOS de Hué</span></td>
-<td style="width: 471px; vertical-align: middle;"> <a title="Lien décembre 2019" href="/assets/images/aevn_lien/lien-124.pdf" target="_blank" rel="noopener noreferrer"><img title="Lien de décembre 2019" src="/assets/images/stories/lien-124.png" alt="Lien de décembre 2019" width="256" height="352" /></a></span></td>
+<td style="width: 571px;">2. En bref de l'équipe AEVN<br />3. Éditorial<br />4. Présentation générale des trois Villages<br />4. Visite du groupe parlementaire d'Amité France-Vietnam au Village SOS de Hué<br />5. Cet été, aux Villages avec nos enfants et nos Mères<br />7. La famille, le plus magnifique cadeau de ma vie<br />8. Témoignage de Duong Tu<br />9. Voyage au Vietnam, avec mes filleul(e)s<br />10. Nouvelles du Village SOS de Dalat<br />11. Nouvelles du Village SOS de Dong Hoi<br />13. Nouvelles du Village SOS de Hué<br />14. Souvenirs d'un groupe de jeunes français à leurs amis du Village SOS de Hué</td>
+<td style="width: 471px; vertical-align: middle;"> <a title="Lien décembre 2019" href="/assets/images/aevn_lien/lien-124.pdf" target="_blank" rel="noopener noreferrer"><img title="Lien de décembre 2019" src="/assets/images/stories/lien-124.png" alt="Lien de décembre 2019" width="256" height="352" /></a></td>
 </tr>
 </tbody>
 </table>
