@@ -11,6 +11,8 @@ email: 'aevn@orange.fr'
 include: ["_pages"]
 permalink: /:title/
 
+keep_files: ['CNAME']
+
 # Plugins
 plugins: 
   - jekyll-sitemap
