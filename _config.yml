@@ -1,11 +1,11 @@
 # Site
 name: "Aide à l'Enfance du Vietnam"
 description: "ONG partenaire de la Fédération Internationale des Villages d'enfants SOS."
-logo: 'assets/images/logo.png'
+logo: 'assets/images/logo.jpg'
 favicon: 'assets/images/favicon.ico'
 baseurl: #'/mundana-theme-jekyll'
 # disqus: 'demowebsite'
-email: 'aevn@orange.fr'
+email: 'contact@aevn.org'
 # mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
 include: ["_pages"]

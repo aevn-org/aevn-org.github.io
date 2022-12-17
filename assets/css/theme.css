@@ -857,3 +857,12 @@ div.a2a_full_footer {display:none;}
   background: rgba(0, 0, 0, .08);
   color: rgba(0, 0, 0, .3);
 }
+
+a.brand-image {
+	padding: 0px 5px 0px 0px;
+}
+img.brand-image {
+  -webkit-border-radius: 0px;
+	 -moz-border-radius: 0px;
+		  border-radius: 0px;
+}
