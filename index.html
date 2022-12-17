@@ -22,7 +22,7 @@ description: "Aide à l'Enfance du Vietnam."
                 <p class="mb-3 lead">
                     {{ post.excerpt | strip_html | strip_newlines | truncate: 136 }}
                 </p>
-                <a href="{{site.baseurl}}{{post.url}}" class="btn btn-dark">Read More</a>
+                <a href="{{site.baseurl}}{{post.url}}" class="btn btn-dark">Lire la suite</a> <a href="{{site.baseurl}}/donate.html" class="btn btn-dark">Nous aider</a>
             </div>
             <div class="col-md-6 d-none d-md-block pr-0" style="background-size:cover;background-image:url({{site.baseurl}}/{{ post.image }});">	
             </div>
@@ -51,14 +51,14 @@ description: "Aide à l'Enfance du Vietnam."
     </p>
     <div>
         <small class="d-block text-muted">
-            In <span class="catlist">
+            Dans <span class="catlist">
                 {% for category in latest_post.categories %}
                 <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                 {% endfor %}
                 </span>                   
         </small>
         <small class="text-muted">
-            {{ latest_post.date | date: '%b %d, %Y' }}
+            {{ latest_post.date | localize: '%d %b %Y' }}
         </small>
     </div>
     </div>
@@ -82,14 +82,14 @@ description: "Aide à l'Enfance du Vietnam."
                     <a class="text-dark" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a>
                     </h2>
                     <small class="d-block text-muted">
-                        In <span class="catlist">
+                        Dans <span class="catlist">
                         {% for category in second_post.categories %}
                         <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                         {% endfor %}
                         </span>                   
                     </small>
                     <small class="text-muted">
-                        {{ second_post.date | date: '%b %d, %Y' }}
+                        {{ second_post.date | localize: '%d %b %Y' }}
                     </small>
                 </div>
             </div>
@@ -109,14 +109,14 @@ description: "Aide à l'Enfance du Vietnam."
                     <a class="text-dark" href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a>
                     </h2>
                     <small class="d-block text-muted">
-                        In <span class="catlist">
+                        Dans <span class="catlist">
                         {% for category in third_post.categories %}
                         <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                         {% endfor %}
                         </span>                   
                     </small>
                     <small class="text-muted">
-                        {{ third_post.date | date: '%b %d, %Y' }}
+                        {{ third_post.date | localize: '%d %b %Y' }}
                     </small>
                 </div>
             </div>
@@ -136,14 +136,14 @@ description: "Aide à l'Enfance du Vietnam."
                     <a class="text-dark" href="{{site.baseurl}}{{fourth_post.url}}">{{ fourth_post.title }}</a>
                     </h2>
                     <small class="d-block text-muted">
-                        In <span class="catlist">
+                        Dans <span class="catlist">
                         {% for category in fourth_post.categories %}
                         <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                         {% endfor %}
                         </span>                   
                     </small>
                     <small class="text-muted">
-                        {{ fourth_post.date | date: '%b %d, %Y' }}
+                        {{ fourth_post.date | localize: '%d %b %Y' }}
                     </small>
                 </div>
             </div>
@@ -165,7 +165,7 @@ description: "Aide à l'Enfance du Vietnam."
    
     <div class="col-md-8 main-loop">
         
-        <h4 class="font-weight-bold spanborder"><span>All Stories</span></h4>
+        <h4 class="font-weight-bold spanborder"><span>Tous les articles</span></h4>
         
 
         {% for post in paginator.posts %}
