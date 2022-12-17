@@ -18,11 +18,11 @@ description: "Aide à l'Enfance du Vietnam."
     <div class="pl-4 pr-0 h-100 tofront">
         <div class="row justify-content-between">
             <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
-                <h1 class="mb-3">{{post.title}}</h1>
+                <h2 class="mb-3">{{post.title}}</h2>
                 <p class="mb-3 lead">
-                    {{ post.excerpt | strip_html | strip_newlines | truncate: 136 }}
+                    {{ post.excerpt | strip_html | strip_newlines | truncate: 300 }}
                 </p>
-                <a href="{{site.baseurl}}{{post.url}}" class="btn btn-dark">Lire la suite</a> <a href="{{site.baseurl}}/donate.html" class="btn btn-dark">Nous aider</a>
+                <a href="{{site.baseurl}}{{post.url}}" class="btn btn-dark">Nous connaître</a> <a href="{{site.baseurl}}/donate.html" class="btn btn-indigo">Nous aider</a>
             </div>
             <div class="col-md-6 d-none d-md-block pr-0" style="background-size:cover;background-image:url({{site.baseurl}}/{{ post.image }});">	
             </div>

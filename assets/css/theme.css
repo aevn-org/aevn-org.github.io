@@ -866,3 +866,6 @@ img.brand-image {
 	 -moz-border-radius: 0px;
 		  border-radius: 0px;
 }
+
+div.inline { float:left; }
+.clearBoth { clear:both; }
