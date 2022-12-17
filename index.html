@@ -177,7 +177,7 @@ description: "Aide à l'Enfance du Vietnam."
         <div class="mt-5">
          <!-- Pagination links -->
             {% if paginator.total_pages > 1 %}
-            <ul class="pagination"> 
+            <ul class="pagination flex-wrap"> 
               {% if paginator.previous_page %}
                 <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
               {% else %}
