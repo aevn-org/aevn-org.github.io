@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Our Guiding Principles and Our History" />
 <script type="application/ld+json">
-{"headline":"Our Guiding Principles and Our History","dateModified":"2016-09-08T10:22:58+02:00","datePublished":"2016-09-08T10:22:58+02:00","@type":"BlogPosting","author":{"@type":"Person","name":"Administrator"},"url":"/our-guiding-principles-and-our-history/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Administrator"},"mainEntityOfPage":{"@type":"WebPage","@id":"/our-guiding-principles-and-our-history/"},"description":"Let all children become citizens of tomorrow acting for the development of their own country!  essai ACVN has been working since 1970 on the basis of four principles established in 1949 by Hermann Gmeiner in Imst, Austria: the mother, the brothers and sisters, the house and the Village.   The Mother     The SOS mother creates a close relationship with all the children she is entrusted with and brings them the security, love and stability that they need. Professionally trained to take care of children, she lives with them, directs their development and manages her household in an autonomous way. She knows and respects each child’s family history, original culture and religion.           Brothers and sisters     Boys and girls of various ages live together as brothers and sisters, natural siblings are not separated and all live as a single SOS family. The emotional bonds created by those children and their SOS mother last a lifetime.         The House   House in the children&#39;s Village of Hue   The house is the family’s home, the place in which everyone lives, with its daily routine and traditions. Under its roof, children are secure and feel they belong. Together, they grow up, learn and share responsibilities as well as the daily joys and pains of life.         The Village   The SOS families together make up a village, an environment in which children can develop. They share experiences and help one another. Each one is also a member of the surrounding community, each child learns to become an active member of society.","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Administrator"},"@type":"BlogPosting","url":"/our-guiding-principles-and-our-history/","headline":"Our Guiding Principles and Our History","dateModified":"2016-09-08T10:22:58+02:00","datePublished":"2016-09-08T10:22:58+02:00","description":"Let all children become citizens of tomorrow acting for the development of their own country!  essai ACVN has been working since 1970 on the basis of four principles established in 1949 by Hermann Gmeiner in Imst, Austria: the mother, the brothers and sisters, the house and the Village.   The Mother     The SOS mother creates a close relationship with all the children she is entrusted with and brings them the security, love and stability that they need. Professionally trained to take care of children, she lives with them, directs their development and manages her household in an autonomous way. She knows and respects each child’s family history, original culture and religion.           Brothers and sisters     Boys and girls of various ages live together as brothers and sisters, natural siblings are not separated and all live as a single SOS family. The emotional bonds created by those children and their SOS mother last a lifetime.         The House   House in the children&#39;s Village of Hue   The house is the family’s home, the place in which everyone lives, with its daily routine and traditions. Under its roof, children are secure and feel they belong. Together, they grow up, learn and share responsibilities as well as the daily joys and pains of life.         The Village   The SOS families together make up a village, an environment in which children can develop. They share experiences and help one another. Each one is also a member of the surrounding community, each child learns to become an active member of society.","mainEntityOfPage":{"@type":"WebPage","@id":"/our-guiding-principles-and-our-history/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Administrator"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -81,8 +81,22 @@
 <!-- <li class="nav-item">
 <a class="nav-link" href="/donate.html"><button class="button-18" role="button">Faire un don</button></a>
 </li> -->
+<!-- <script>
+    function showDivAttid(){
+        if ($.browser.mozilla) {
+            document.getElementById('donate-button-container').style.display = 'none';
+            document.getElementById('donate-button-newtab').style.display = 'inline';
+        }
+        else {
+            document.getElementById('donate-button-container').style.display = 'inline';
+            document.getElementById('donate-button-newtab').style.display = 'none';
+        }
+    }
+</script> -->
+
 <li class="nav-item">
-<div id="donate-button-container">
+<a class="nav-link" href="https://www.paypal.com/donate/?hosted_button_id=WY37N36CJ7FQG" target="_blank" id="donate-button-newtab" style="display:none"><button class="button-18" role="button">Faire un don</button></a>
+<div id="donate-button-container" style="display:none">
     <div id="donate-button"></div>
     <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
     <script>
@@ -101,7 +115,20 @@
     </div>    
 </li>
 
-
+<script>
+    // let firefoxAgent = userAgentString.indexOf("Firefox") > -1;
+    // if (firefoxAgent) {
+    let userAgent = navigator.userAgent;
+    // if ($.browser.mozilla) 
+    if(userAgent.match(/firefox|fxios/i))
+    {
+        document.getElementById('donate-button-container').style.display = 'none';
+        document.getElementById('donate-button-newtab').style.display = 'inline';
+    } else {
+        document.getElementById('donate-button-container').style.display = 'inline';
+        document.getElementById('donate-button-newtab').style.display = 'none';
+    }
+</script>
 
             </ul>
             <ul class="navbar-nav ml-auto d-flex align-items-center">

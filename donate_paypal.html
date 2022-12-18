@@ -17,7 +17,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Aide à l’Enfance du Vietnam" />
 <script type="application/ld+json">
-{"headline":"Aide à l’Enfance du Vietnam","@type":"WebPage","url":"/donate_paypal.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"}},"description":"ONG partenaire de la Fédération Internationale des Villages d’enfants SOS.","@context":"https://schema.org"}</script>
+{"@type":"WebPage","url":"/donate_paypal.html","headline":"Aide à l’Enfance du Vietnam","description":"ONG partenaire de la Fédération Internationale des Villages d’enfants SOS.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"}},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -78,8 +78,22 @@
 <!-- <li class="nav-item">
 <a class="nav-link" href="/donate.html"><button class="button-18" role="button">Faire un don</button></a>
 </li> -->
+<!-- <script>
+    function showDivAttid(){
+        if ($.browser.mozilla) {
+            document.getElementById('donate-button-container').style.display = 'none';
+            document.getElementById('donate-button-newtab').style.display = 'inline';
+        }
+        else {
+            document.getElementById('donate-button-container').style.display = 'inline';
+            document.getElementById('donate-button-newtab').style.display = 'none';
+        }
+    }
+</script> -->
+
 <li class="nav-item">
-<div id="donate-button-container">
+<a class="nav-link" href="https://www.paypal.com/donate/?hosted_button_id=WY37N36CJ7FQG" target="_blank" id="donate-button-newtab" style="display:none"><button class="button-18" role="button">Faire un don</button></a>
+<div id="donate-button-container" style="display:none">
     <div id="donate-button"></div>
     <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
     <script>
@@ -98,7 +112,20 @@
     </div>    
 </li>
 
-
+<script>
+    // let firefoxAgent = userAgentString.indexOf("Firefox") > -1;
+    // if (firefoxAgent) {
+    let userAgent = navigator.userAgent;
+    // if ($.browser.mozilla) 
+    if(userAgent.match(/firefox|fxios/i))
+    {
+        document.getElementById('donate-button-container').style.display = 'none';
+        document.getElementById('donate-button-newtab').style.display = 'inline';
+    } else {
+        document.getElementById('donate-button-container').style.display = 'inline';
+        document.getElementById('donate-button-newtab').style.display = 'none';
+    }
+</script>
 
             </ul>
             <ul class="navbar-nav ml-auto d-flex align-items-center">

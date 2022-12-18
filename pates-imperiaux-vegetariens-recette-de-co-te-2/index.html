@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Raviolis vietnamiens / banh cuôn végétariens (recette de Cô Te)" />
 <script type="application/ld+json">
-{"headline":"Raviolis vietnamiens / banh cuôn végétariens (recette de Cô Te)","dateModified":"2014-07-30T23:00:00+02:00","datePublished":"2014-07-30T23:00:00+02:00","@type":"BlogPosting","author":{"@type":"Person","name":"Donald CALAS"},"url":"/pates-imperiaux-vegetariens-recette-de-co-te-2/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Donald CALAS"},"mainEntityOfPage":{"@type":"WebPage","@id":"/pates-imperiaux-vegetariens-recette-de-co-te-2/"},"description":"Raviolis vietnamiens / banh cuôn (environ 30) : -galettes de riz rondes (16 ou 22cm)-250g de tofu aux épices-25g de champignons noirs (tai meo) trempés et égouttés-250g d’échalotes ou oignons Couper les échalotes / oignons en fines rondelles et les faire revenir à feu vif dans un peu d’huile jusqu’à ce qu’ils commencent à dorer. Y ajouter le tofu et les champignons préalablement hachés grossièrement, assaisonner avec de la sauce de soja, du vinaigre de riz noir, et du poivre moulu.Faire tremper les galettes de riz en les plaçant l’une après l’autre (8 au maximum) dans un grand saladier contenant de l’eau assez chaude (40°) et une bonne cuiller à soupe d’huile. Les laisser tremper 3mns et en sortir une à chaque fois. La poser sur une planche ou assiette et y mettre une cuiller à soupe de farce. Rabattre les 2 côtés gauche et droite, puis le haut pour former un rouleau.Servir avec une sauce de soja agrémentée de jus de citron et gingembre râpé.","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Donald CALAS"},"@type":"BlogPosting","url":"/pates-imperiaux-vegetariens-recette-de-co-te-2/","headline":"Raviolis vietnamiens / banh cuôn végétariens (recette de Cô Te)","dateModified":"2014-07-30T23:00:00+02:00","datePublished":"2014-07-30T23:00:00+02:00","description":"Raviolis vietnamiens / banh cuôn (environ 30) : -galettes de riz rondes (16 ou 22cm)-250g de tofu aux épices-25g de champignons noirs (tai meo) trempés et égouttés-250g d’échalotes ou oignons Couper les échalotes / oignons en fines rondelles et les faire revenir à feu vif dans un peu d’huile jusqu’à ce qu’ils commencent à dorer. Y ajouter le tofu et les champignons préalablement hachés grossièrement, assaisonner avec de la sauce de soja, du vinaigre de riz noir, et du poivre moulu.Faire tremper les galettes de riz en les plaçant l’une après l’autre (8 au maximum) dans un grand saladier contenant de l’eau assez chaude (40°) et une bonne cuiller à soupe d’huile. Les laisser tremper 3mns et en sortir une à chaque fois. La poser sur une planche ou assiette et y mettre une cuiller à soupe de farce. Rabattre les 2 côtés gauche et droite, puis le haut pour former un rouleau.Servir avec une sauce de soja agrémentée de jus de citron et gingembre râpé.","mainEntityOfPage":{"@type":"WebPage","@id":"/pates-imperiaux-vegetariens-recette-de-co-te-2/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Donald CALAS"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -81,8 +81,22 @@
 <!-- <li class="nav-item">
 <a class="nav-link" href="/donate.html"><button class="button-18" role="button">Faire un don</button></a>
 </li> -->
+<!-- <script>
+    function showDivAttid(){
+        if ($.browser.mozilla) {
+            document.getElementById('donate-button-container').style.display = 'none';
+            document.getElementById('donate-button-newtab').style.display = 'inline';
+        }
+        else {
+            document.getElementById('donate-button-container').style.display = 'inline';
+            document.getElementById('donate-button-newtab').style.display = 'none';
+        }
+    }
+</script> -->
+
 <li class="nav-item">
-<div id="donate-button-container">
+<a class="nav-link" href="https://www.paypal.com/donate/?hosted_button_id=WY37N36CJ7FQG" target="_blank" id="donate-button-newtab" style="display:none"><button class="button-18" role="button">Faire un don</button></a>
+<div id="donate-button-container" style="display:none">
     <div id="donate-button"></div>
     <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
     <script>
@@ -101,7 +115,20 @@
     </div>    
 </li>
 
-
+<script>
+    // let firefoxAgent = userAgentString.indexOf("Firefox") > -1;
+    // if (firefoxAgent) {
+    let userAgent = navigator.userAgent;
+    // if ($.browser.mozilla) 
+    if(userAgent.match(/firefox|fxios/i))
+    {
+        document.getElementById('donate-button-container').style.display = 'none';
+        document.getElementById('donate-button-newtab').style.display = 'inline';
+    } else {
+        document.getElementById('donate-button-container').style.display = 'inline';
+        document.getElementById('donate-button-newtab').style.display = 'none';
+    }
+</script>
 
             </ul>
             <ul class="navbar-nav ml-auto d-flex align-items-center">

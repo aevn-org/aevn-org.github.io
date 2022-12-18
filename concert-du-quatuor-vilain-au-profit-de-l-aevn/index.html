@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Concert du quatuor Vilain au profit de l’AEVN" />
 <script type="application/ld+json">
-{"headline":"Concert du quatuor Vilain au profit de l’AEVN","dateModified":"2016-11-30T14:51:43+01:00","datePublished":"2016-11-30T14:51:43+01:00","@type":"BlogPosting","author":{"@type":"Person","name":"Donald CALAS"},"url":"/concert-du-quatuor-vilain-au-profit-de-l-aevn/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Donald CALAS"},"mainEntityOfPage":{"@type":"WebPage","@id":"/concert-du-quatuor-vilain-au-profit-de-l-aevn/"},"description":"Le Quatuor Vilain avec un coeur sur la main Le 3 juillet 2016, Jeanne Favre a organisé un concert à la Cathédrale Saint Sauveur d’Aix en Provence avec le groupe de musiciens « Quatuor Vilain ».Les bénéfices de ce concert ont été reversés à AEVN pour un montant de 142 euros.Nous tenons à remercier chaleureusement Jeanne pour son initiative ainsi que Père Benoît et les chanteurs.Le Quatuor Vilain est un groupe de quatre jeunes chanteurs qui se sont rassemblés au sein de la Licence Musicologie de la Faculté de Lettres d’Aix-en-Provence. Leur collaboration est née d’une envie de transmettre ce qu’ils ont appris en cours de chorale. Ayant eu plusieurs occasions de chanter dans différents lieux, le 03 juillet dernier, ils ont eu l’opportunité de performer à la Cathédrale Saint Sauveur d’Aix en Provence et ce au profit de l‘association Aide à l’Enfance du Viet Nam. Autour d’un répertoire de chansons profanes et religieuses, allant de la Renaissance au XIXème siècle, les quatre interprètes ont décidé de reverser les gains de ce concert à cette oeuvre caritative.Laure Bertran de Balanda (soprano), Matteo Samartano (alto), David Yaniche (tenor) et Aurélien Plaza (basse) remercient tout particulièrement le Père Benoit, le curé de la Cathédrale Saint Sauveur, pour avoir permis cette représentation dans ce lieu sacré. Pour voir un court extrait d&#39;une performance du quatuor Vilain: cliquer ici","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Donald CALAS"},"@type":"BlogPosting","url":"/concert-du-quatuor-vilain-au-profit-de-l-aevn/","headline":"Concert du quatuor Vilain au profit de l’AEVN","dateModified":"2016-11-30T14:51:43+01:00","datePublished":"2016-11-30T14:51:43+01:00","description":"Le Quatuor Vilain avec un coeur sur la main Le 3 juillet 2016, Jeanne Favre a organisé un concert à la Cathédrale Saint Sauveur d’Aix en Provence avec le groupe de musiciens « Quatuor Vilain ».Les bénéfices de ce concert ont été reversés à AEVN pour un montant de 142 euros.Nous tenons à remercier chaleureusement Jeanne pour son initiative ainsi que Père Benoît et les chanteurs.Le Quatuor Vilain est un groupe de quatre jeunes chanteurs qui se sont rassemblés au sein de la Licence Musicologie de la Faculté de Lettres d’Aix-en-Provence. Leur collaboration est née d’une envie de transmettre ce qu’ils ont appris en cours de chorale. Ayant eu plusieurs occasions de chanter dans différents lieux, le 03 juillet dernier, ils ont eu l’opportunité de performer à la Cathédrale Saint Sauveur d’Aix en Provence et ce au profit de l‘association Aide à l’Enfance du Viet Nam. Autour d’un répertoire de chansons profanes et religieuses, allant de la Renaissance au XIXème siècle, les quatre interprètes ont décidé de reverser les gains de ce concert à cette oeuvre caritative.Laure Bertran de Balanda (soprano), Matteo Samartano (alto), David Yaniche (tenor) et Aurélien Plaza (basse) remercient tout particulièrement le Père Benoit, le curé de la Cathédrale Saint Sauveur, pour avoir permis cette représentation dans ce lieu sacré. Pour voir un court extrait d&#39;une performance du quatuor Vilain: cliquer ici","mainEntityOfPage":{"@type":"WebPage","@id":"/concert-du-quatuor-vilain-au-profit-de-l-aevn/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Donald CALAS"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -81,8 +81,22 @@
 <!-- <li class="nav-item">
 <a class="nav-link" href="/donate.html"><button class="button-18" role="button">Faire un don</button></a>
 </li> -->
+<!-- <script>
+    function showDivAttid(){
+        if ($.browser.mozilla) {
+            document.getElementById('donate-button-container').style.display = 'none';
+            document.getElementById('donate-button-newtab').style.display = 'inline';
+        }
+        else {
+            document.getElementById('donate-button-container').style.display = 'inline';
+            document.getElementById('donate-button-newtab').style.display = 'none';
+        }
+    }
+</script> -->
+
 <li class="nav-item">
-<div id="donate-button-container">
+<a class="nav-link" href="https://www.paypal.com/donate/?hosted_button_id=WY37N36CJ7FQG" target="_blank" id="donate-button-newtab" style="display:none"><button class="button-18" role="button">Faire un don</button></a>
+<div id="donate-button-container" style="display:none">
     <div id="donate-button"></div>
     <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
     <script>
@@ -101,7 +115,20 @@
     </div>    
 </li>
 
-
+<script>
+    // let firefoxAgent = userAgentString.indexOf("Firefox") > -1;
+    // if (firefoxAgent) {
+    let userAgent = navigator.userAgent;
+    // if ($.browser.mozilla) 
+    if(userAgent.match(/firefox|fxios/i))
+    {
+        document.getElementById('donate-button-container').style.display = 'none';
+        document.getElementById('donate-button-newtab').style.display = 'inline';
+    } else {
+        document.getElementById('donate-button-container').style.display = 'inline';
+        document.getElementById('donate-button-newtab').style.display = 'none';
+    }
+</script>
 
             </ul>
             <ul class="navbar-nav ml-auto d-flex align-items-center">

@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Nos Villages d’enfants SOS" />
 <script type="application/ld+json">
-{"headline":"Nos Villages d’enfants SOS","dateModified":"2010-03-09T12:22:47+01:00","datePublished":"2010-03-09T12:22:47+01:00","@type":"BlogPosting","author":{"@type":"Person","name":"Administrator"},"url":"/nos-villages-denfants-sos/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Administrator"},"mainEntityOfPage":{"@type":"WebPage","@id":"/nos-villages-denfants-sos/"},"description":"Fonctionnement d&#39;un Village   Le Village se compose de 10 à 15 maisons, qui accueillent chacune une dizaine d&#39;enfants autour d&#39;une mère SOS (Village de Dalat - Village de Hué - Village de Dong Hoi). L&#39;équipe d&#39;encadrement est constituée d&#39;un directeur, d&#39;une secrétaire-comptable, de tantes aidant les mamans, d&#39;un éducateur et d&#39;un jardinier. Le recrutement des mères est effectué localement par l&#39;association des Villages SOS du Vietnam. Rigoureusement choisies en fonction de leurs compétences éducatives, de leur équilibre psychologique mais aussi de leur qualité de cœur, les mères suivent une formation de six mois, à la fois théorique et pratique. Elles peuvent ainsi se consacrer aux enfants qui leur sont confiés et assurer leur prise en charge au quotidien. Un avenir qui s&#39;offre à eux : Les enfants dont les mères SOS s&#39;occupent sont âgés de quelques mois à une vingtaine d&#39;années. Ils suivent un cursus scolaire normal et intègrent les écoles à proximité, mises en place ou non par la Fédération Internationale des Villages d&#39;Enfants SOS. Adolescents, ils ont la possibilité de suivre une formation professionnelle ou universitaire et sont conseillés et épaulés par le Village, le temps nécessaire à leur insertion dans la vie active.","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Administrator"},"@type":"BlogPosting","url":"/nos-villages-denfants-sos/","headline":"Nos Villages d’enfants SOS","dateModified":"2010-03-09T12:22:47+01:00","datePublished":"2010-03-09T12:22:47+01:00","description":"Fonctionnement d&#39;un Village   Le Village se compose de 10 à 15 maisons, qui accueillent chacune une dizaine d&#39;enfants autour d&#39;une mère SOS (Village de Dalat - Village de Hué - Village de Dong Hoi). L&#39;équipe d&#39;encadrement est constituée d&#39;un directeur, d&#39;une secrétaire-comptable, de tantes aidant les mamans, d&#39;un éducateur et d&#39;un jardinier. Le recrutement des mères est effectué localement par l&#39;association des Villages SOS du Vietnam. Rigoureusement choisies en fonction de leurs compétences éducatives, de leur équilibre psychologique mais aussi de leur qualité de cœur, les mères suivent une formation de six mois, à la fois théorique et pratique. Elles peuvent ainsi se consacrer aux enfants qui leur sont confiés et assurer leur prise en charge au quotidien. Un avenir qui s&#39;offre à eux : Les enfants dont les mères SOS s&#39;occupent sont âgés de quelques mois à une vingtaine d&#39;années. Ils suivent un cursus scolaire normal et intègrent les écoles à proximité, mises en place ou non par la Fédération Internationale des Villages d&#39;Enfants SOS. Adolescents, ils ont la possibilité de suivre une formation professionnelle ou universitaire et sont conseillés et épaulés par le Village, le temps nécessaire à leur insertion dans la vie active.","mainEntityOfPage":{"@type":"WebPage","@id":"/nos-villages-denfants-sos/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Administrator"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -81,8 +81,22 @@
 <!-- <li class="nav-item">
 <a class="nav-link" href="/donate.html"><button class="button-18" role="button">Faire un don</button></a>
 </li> -->
+<!-- <script>
+    function showDivAttid(){
+        if ($.browser.mozilla) {
+            document.getElementById('donate-button-container').style.display = 'none';
+            document.getElementById('donate-button-newtab').style.display = 'inline';
+        }
+        else {
+            document.getElementById('donate-button-container').style.display = 'inline';
+            document.getElementById('donate-button-newtab').style.display = 'none';
+        }
+    }
+</script> -->
+
 <li class="nav-item">
-<div id="donate-button-container">
+<a class="nav-link" href="https://www.paypal.com/donate/?hosted_button_id=WY37N36CJ7FQG" target="_blank" id="donate-button-newtab" style="display:none"><button class="button-18" role="button">Faire un don</button></a>
+<div id="donate-button-container" style="display:none">
     <div id="donate-button"></div>
     <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
     <script>
@@ -101,7 +115,20 @@
     </div>    
 </li>
 
-
+<script>
+    // let firefoxAgent = userAgentString.indexOf("Firefox") > -1;
+    // if (firefoxAgent) {
+    let userAgent = navigator.userAgent;
+    // if ($.browser.mozilla) 
+    if(userAgent.match(/firefox|fxios/i))
+    {
+        document.getElementById('donate-button-container').style.display = 'none';
+        document.getElementById('donate-button-newtab').style.display = 'inline';
+    } else {
+        document.getElementById('donate-button-container').style.display = 'inline';
+        document.getElementById('donate-button-newtab').style.display = 'none';
+    }
+</script>
 
             </ul>
             <ul class="navbar-nav ml-auto d-flex align-items-center">

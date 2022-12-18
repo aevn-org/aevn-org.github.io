@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="M. et Mme Lambinon reçoivent leur filleule à Lyon" />
 <script type="application/ld+json">
-{"headline":"M. et Mme Lambinon reçoivent leur filleule à Lyon","dateModified":"2018-04-14T11:47:53+02:00","datePublished":"2018-04-14T11:47:53+02:00","@type":"BlogPosting","author":{"@type":"Person","name":"Donald CALAS"},"url":"/m-et-mme-lambinon-recoivent-leur-filleule-a-lyon/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Donald CALAS"},"mainEntityOfPage":{"@type":"WebPage","@id":"/m-et-mme-lambinon-recoivent-leur-filleule-a-lyon/"},"description":"Monsieur et Madame Lambinon, des parrains de longue date de AEVN, reçoivent leur filleule Vo Thi Kim Dung de Dalat, avec sa famille à Lyon. Chers amis.Nous avons eu le grand plaisir de recevoir chez nous à Lyon notre filleule Vo Thi Kim Dung qui est venue avec son mari et sa fille ainée pour un très court séjour! Elle a participé à un salon de la céramique à Francfort, pour son travail, et a prolongé son déplacement en venant à Lyon 24 heures (via Paris où étaient sa fille et son mari). Nous l’avons vue du vendredi 16 février 12h00 au samedi 17février 16h00… toute la petite famille a couché à la maison et ce furent des moments très sympathiques. Dommage qu’il ait fait un très mauvais temps, froid et pluvieux, surtout le samedi.Vous trouverez ci-dessous des photos prises durant cette visite de Lyon.Amicalement à vous.Agnès et Yvan      Madame Lambinon, Vo Thi Kim Dung, son mari et sa petite fille Mme et Mr Lambinon, Vo Thi Kim Dung et sa famille","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Donald CALAS"},"@type":"BlogPosting","url":"/m-et-mme-lambinon-recoivent-leur-filleule-a-lyon/","headline":"M. et Mme Lambinon reçoivent leur filleule à Lyon","dateModified":"2018-04-14T11:47:53+02:00","datePublished":"2018-04-14T11:47:53+02:00","description":"Monsieur et Madame Lambinon, des parrains de longue date de AEVN, reçoivent leur filleule Vo Thi Kim Dung de Dalat, avec sa famille à Lyon. Chers amis.Nous avons eu le grand plaisir de recevoir chez nous à Lyon notre filleule Vo Thi Kim Dung qui est venue avec son mari et sa fille ainée pour un très court séjour! Elle a participé à un salon de la céramique à Francfort, pour son travail, et a prolongé son déplacement en venant à Lyon 24 heures (via Paris où étaient sa fille et son mari). Nous l’avons vue du vendredi 16 février 12h00 au samedi 17février 16h00… toute la petite famille a couché à la maison et ce furent des moments très sympathiques. Dommage qu’il ait fait un très mauvais temps, froid et pluvieux, surtout le samedi.Vous trouverez ci-dessous des photos prises durant cette visite de Lyon.Amicalement à vous.Agnès et Yvan      Madame Lambinon, Vo Thi Kim Dung, son mari et sa petite fille Mme et Mr Lambinon, Vo Thi Kim Dung et sa famille","mainEntityOfPage":{"@type":"WebPage","@id":"/m-et-mme-lambinon-recoivent-leur-filleule-a-lyon/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Donald CALAS"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -81,8 +81,22 @@
 <!-- <li class="nav-item">
 <a class="nav-link" href="/donate.html"><button class="button-18" role="button">Faire un don</button></a>
 </li> -->
+<!-- <script>
+    function showDivAttid(){
+        if ($.browser.mozilla) {
+            document.getElementById('donate-button-container').style.display = 'none';
+            document.getElementById('donate-button-newtab').style.display = 'inline';
+        }
+        else {
+            document.getElementById('donate-button-container').style.display = 'inline';
+            document.getElementById('donate-button-newtab').style.display = 'none';
+        }
+    }
+</script> -->
+
 <li class="nav-item">
-<div id="donate-button-container">
+<a class="nav-link" href="https://www.paypal.com/donate/?hosted_button_id=WY37N36CJ7FQG" target="_blank" id="donate-button-newtab" style="display:none"><button class="button-18" role="button">Faire un don</button></a>
+<div id="donate-button-container" style="display:none">
     <div id="donate-button"></div>
     <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
     <script>
@@ -101,7 +115,20 @@
     </div>    
 </li>
 
-
+<script>
+    // let firefoxAgent = userAgentString.indexOf("Firefox") > -1;
+    // if (firefoxAgent) {
+    let userAgent = navigator.userAgent;
+    // if ($.browser.mozilla) 
+    if(userAgent.match(/firefox|fxios/i))
+    {
+        document.getElementById('donate-button-container').style.display = 'none';
+        document.getElementById('donate-button-newtab').style.display = 'inline';
+    } else {
+        document.getElementById('donate-button-container').style.display = 'inline';
+        document.getElementById('donate-button-newtab').style.display = 'none';
+    }
+</script>
 
             </ul>
             <ul class="navbar-nav ml-auto d-flex align-items-center">

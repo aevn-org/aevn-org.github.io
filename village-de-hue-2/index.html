@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Hue Children’s Village" />
 <script type="application/ld+json">
-{"headline":"Hue Children’s Village","dateModified":"2010-03-09T12:24:47+01:00","datePublished":"2010-03-09T12:24:47+01:00","@type":"BlogPosting","author":{"@type":"Person","name":"Administrator"},"url":"/village-de-hue-2/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Administrator"},"mainEntityOfPage":{"@type":"WebPage","@id":"/village-de-hue-2/"},"description":"Thuy Xuan Children&#39;s Village and Professional Training Center in Hue Aid to the Children of Vietnam (ACVN) is taking care of both a children&#39;s Village and a professional bakery training center on Thuy Xuan site, in Hue. (Movie on the Village / Village&#39;s pictures). Thuy Xuan children&#39;s joy, Hue Village birth: A social public place for Hue street&#39;s childrens was existing at 108 Chi Lang street, downtown. Getting closer to these children, ACVN was touched and decided to bring an urgent financial support. In 1996, this help made possible the installation of showers and lavatories, the rain water evacuation system renovation and the construction of a second small building (40m2) for laundry drying. Until then, laundry was drying above the beds in the dormitories. Nevertheless, the timeworn premises and the lack of space urge ACVN to think about other solutions. Then, ACVN association proposes to build a place to wellcome the children and to offer a professional training center. In septembre 1998, a piece of land is given by Hue city, at Thuy Xuan. It is much bigger than the one at 108 Chi Lang street. Not only may ACVN build new houses, but also think about setting up professional training center for the teenagers. Funds to finance part of the project are obtained from the European Union in decembre 1999. The first three houses are built, the children move in, wellcomed by three mothers for the start of the new school year 2000. From 2001 to 2002, in partnership with the European Union and the Vallet foundation, two new houses for 30 teenagers, one common house and the director&#39;s house are added to Thuy Xuan Village. The opening ceremony takes place on septembre 3rd, 2001. The Village is organized on the model of SOS Villages. Today, 5 mothers take care of 30 children and about twenty teenagers. You want to make a donation for the Children&#39;s Village in Hue? Thank you to click here.","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Administrator"},"@type":"BlogPosting","url":"/village-de-hue-2/","headline":"Hue Children’s Village","dateModified":"2010-03-09T12:24:47+01:00","datePublished":"2010-03-09T12:24:47+01:00","description":"Thuy Xuan Children&#39;s Village and Professional Training Center in Hue Aid to the Children of Vietnam (ACVN) is taking care of both a children&#39;s Village and a professional bakery training center on Thuy Xuan site, in Hue. (Movie on the Village / Village&#39;s pictures). Thuy Xuan children&#39;s joy, Hue Village birth: A social public place for Hue street&#39;s childrens was existing at 108 Chi Lang street, downtown. Getting closer to these children, ACVN was touched and decided to bring an urgent financial support. In 1996, this help made possible the installation of showers and lavatories, the rain water evacuation system renovation and the construction of a second small building (40m2) for laundry drying. Until then, laundry was drying above the beds in the dormitories. Nevertheless, the timeworn premises and the lack of space urge ACVN to think about other solutions. Then, ACVN association proposes to build a place to wellcome the children and to offer a professional training center. In septembre 1998, a piece of land is given by Hue city, at Thuy Xuan. It is much bigger than the one at 108 Chi Lang street. Not only may ACVN build new houses, but also think about setting up professional training center for the teenagers. Funds to finance part of the project are obtained from the European Union in decembre 1999. The first three houses are built, the children move in, wellcomed by three mothers for the start of the new school year 2000. From 2001 to 2002, in partnership with the European Union and the Vallet foundation, two new houses for 30 teenagers, one common house and the director&#39;s house are added to Thuy Xuan Village. The opening ceremony takes place on septembre 3rd, 2001. The Village is organized on the model of SOS Villages. Today, 5 mothers take care of 30 children and about twenty teenagers. You want to make a donation for the Children&#39;s Village in Hue? Thank you to click here.","mainEntityOfPage":{"@type":"WebPage","@id":"/village-de-hue-2/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Administrator"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -81,8 +81,22 @@
 <!-- <li class="nav-item">
 <a class="nav-link" href="/donate.html"><button class="button-18" role="button">Faire un don</button></a>
 </li> -->
+<!-- <script>
+    function showDivAttid(){
+        if ($.browser.mozilla) {
+            document.getElementById('donate-button-container').style.display = 'none';
+            document.getElementById('donate-button-newtab').style.display = 'inline';
+        }
+        else {
+            document.getElementById('donate-button-container').style.display = 'inline';
+            document.getElementById('donate-button-newtab').style.display = 'none';
+        }
+    }
+</script> -->
+
 <li class="nav-item">
-<div id="donate-button-container">
+<a class="nav-link" href="https://www.paypal.com/donate/?hosted_button_id=WY37N36CJ7FQG" target="_blank" id="donate-button-newtab" style="display:none"><button class="button-18" role="button">Faire un don</button></a>
+<div id="donate-button-container" style="display:none">
     <div id="donate-button"></div>
     <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
     <script>
@@ -101,7 +115,20 @@
     </div>    
 </li>
 
-
+<script>
+    // let firefoxAgent = userAgentString.indexOf("Firefox") > -1;
+    // if (firefoxAgent) {
+    let userAgent = navigator.userAgent;
+    // if ($.browser.mozilla) 
+    if(userAgent.match(/firefox|fxios/i))
+    {
+        document.getElementById('donate-button-container').style.display = 'none';
+        document.getElementById('donate-button-newtab').style.display = 'inline';
+    } else {
+        document.getElementById('donate-button-container').style.display = 'inline';
+        document.getElementById('donate-button-newtab').style.display = 'none';
+    }
+</script>
 
             </ul>
             <ul class="navbar-nav ml-auto d-flex align-items-center">

@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Comment nous aider ?" />
 <script type="application/ld+json">
-{"headline":"Comment nous aider ?","dateModified":"2011-11-08T21:05:32+01:00","datePublished":"2011-11-08T21:05:32+01:00","@type":"BlogPosting","author":{"@type":"Person","name":"Donald CALAS"},"url":"/comment-nous-aider/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Donald CALAS"},"mainEntityOfPage":{"@type":"WebPage","@id":"/comment-nous-aider/"},"description":"Deux possibilités pour aider l&#39;AEVN 1. Faire un don - soit par chèque, soit en ligne. 2. Acheter des Cartes-Lettres (cartes de vœux), soit par chèque, soit en ligne. Remarques sur le paiement en ligneLe paiement en ligne des commandes d&#39;articles ou des dons peut être effectué très simplement par Carte Bancaire: il est entièrement sécurisé.Les opérations de paiement sont gérées par l’organisme international « PayPal », agréé par la Banque de France.L&#39;AEVN est directement informée de toutes les transactions ; dans le cas très improbable de colis perdu, vous pouvez être remboursé.Vous devez créer un compte pour être identifié ; cette procédure très simple et guidée vous permet de recevoir un courrier électronique confirmant votre commande, puis son expédition. Pour plus de détails, vous pouvez consulter le document précisant la procédure à suivre : cliquez ici","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Donald CALAS"},"@type":"BlogPosting","url":"/comment-nous-aider/","headline":"Comment nous aider ?","dateModified":"2011-11-08T21:05:32+01:00","datePublished":"2011-11-08T21:05:32+01:00","description":"Deux possibilités pour aider l&#39;AEVN 1. Faire un don - soit par chèque, soit en ligne. 2. Acheter des Cartes-Lettres (cartes de vœux), soit par chèque, soit en ligne. Remarques sur le paiement en ligneLe paiement en ligne des commandes d&#39;articles ou des dons peut être effectué très simplement par Carte Bancaire: il est entièrement sécurisé.Les opérations de paiement sont gérées par l’organisme international « PayPal », agréé par la Banque de France.L&#39;AEVN est directement informée de toutes les transactions ; dans le cas très improbable de colis perdu, vous pouvez être remboursé.Vous devez créer un compte pour être identifié ; cette procédure très simple et guidée vous permet de recevoir un courrier électronique confirmant votre commande, puis son expédition. Pour plus de détails, vous pouvez consulter le document précisant la procédure à suivre : cliquez ici","mainEntityOfPage":{"@type":"WebPage","@id":"/comment-nous-aider/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Donald CALAS"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -81,8 +81,22 @@
 <!-- <li class="nav-item">
 <a class="nav-link" href="/donate.html"><button class="button-18" role="button">Faire un don</button></a>
 </li> -->
+<!-- <script>
+    function showDivAttid(){
+        if ($.browser.mozilla) {
+            document.getElementById('donate-button-container').style.display = 'none';
+            document.getElementById('donate-button-newtab').style.display = 'inline';
+        }
+        else {
+            document.getElementById('donate-button-container').style.display = 'inline';
+            document.getElementById('donate-button-newtab').style.display = 'none';
+        }
+    }
+</script> -->
+
 <li class="nav-item">
-<div id="donate-button-container">
+<a class="nav-link" href="https://www.paypal.com/donate/?hosted_button_id=WY37N36CJ7FQG" target="_blank" id="donate-button-newtab" style="display:none"><button class="button-18" role="button">Faire un don</button></a>
+<div id="donate-button-container" style="display:none">
     <div id="donate-button"></div>
     <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
     <script>
@@ -101,7 +115,20 @@
     </div>    
 </li>
 
-
+<script>
+    // let firefoxAgent = userAgentString.indexOf("Firefox") > -1;
+    // if (firefoxAgent) {
+    let userAgent = navigator.userAgent;
+    // if ($.browser.mozilla) 
+    if(userAgent.match(/firefox|fxios/i))
+    {
+        document.getElementById('donate-button-container').style.display = 'none';
+        document.getElementById('donate-button-newtab').style.display = 'inline';
+    } else {
+        document.getElementById('donate-button-container').style.display = 'inline';
+        document.getElementById('donate-button-newtab').style.display = 'none';
+    }
+</script>
 
             </ul>
             <ul class="navbar-nav ml-auto d-flex align-items-center">

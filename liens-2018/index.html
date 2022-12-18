@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Liens 2018" />
 <script type="application/ld+json">
-{"headline":"Liens 2018","dateModified":"2018-12-01T17:09:59+01:00","datePublished":"2018-12-01T17:09:59+01:00","@type":"BlogPosting","author":{"@type":"Person","name":"Donald CALAS"},"url":"/liens-2018/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Donald CALAS"},"mainEntityOfPage":{"@type":"WebPage","@id":"/liens-2018/"},"description":"Numéro du &quot;Lien&quot; de décembre 2018 Cliquez sur l&#39;image pour voir ou sauvegarder le bulletin d&#39;information.  Sommaire du numéro 123: 2. En bref de l’équipe AEVN3. Editorial5. Merci Hélène d’être venue dans nos coeurs7. Présentation générale des trois Villages8. Nouvelles du Village SOS de Dalat8. Nouvelles du Village SOS de Dong Hoi9. Nouvelles du Village SOS de Hué11. Travaux de rénovation et de restauration du Village SOS de Hué12. Visite du Professeur t’Hooft et de Mme t’Hooft à Dalat14. Visite du Professeur Finn Kydland et de Mme Kydland à Hué15. Départ de Corinne Barcelo16. La visite de mon Parrain17. Marraine à 20 ans et depuis…18. « C’est mon Parrain ! »19. Yen, une ancienne de Thuy Xuan en Bavière20. Visite à nos villages, cet été17 &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Donald CALAS"},"@type":"BlogPosting","url":"/liens-2018/","headline":"Liens 2018","dateModified":"2018-12-01T17:09:59+01:00","datePublished":"2018-12-01T17:09:59+01:00","description":"Numéro du &quot;Lien&quot; de décembre 2018 Cliquez sur l&#39;image pour voir ou sauvegarder le bulletin d&#39;information.  Sommaire du numéro 123: 2. En bref de l’équipe AEVN3. Editorial5. Merci Hélène d’être venue dans nos coeurs7. Présentation générale des trois Villages8. Nouvelles du Village SOS de Dalat8. Nouvelles du Village SOS de Dong Hoi9. Nouvelles du Village SOS de Hué11. Travaux de rénovation et de restauration du Village SOS de Hué12. Visite du Professeur t’Hooft et de Mme t’Hooft à Dalat14. Visite du Professeur Finn Kydland et de Mme Kydland à Hué15. Départ de Corinne Barcelo16. La visite de mon Parrain17. Marraine à 20 ans et depuis…18. « C’est mon Parrain ! »19. Yen, une ancienne de Thuy Xuan en Bavière20. Visite à nos villages, cet été17 &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;","mainEntityOfPage":{"@type":"WebPage","@id":"/liens-2018/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Donald CALAS"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -81,8 +81,22 @@
 <!-- <li class="nav-item">
 <a class="nav-link" href="/donate.html"><button class="button-18" role="button">Faire un don</button></a>
 </li> -->
+<!-- <script>
+    function showDivAttid(){
+        if ($.browser.mozilla) {
+            document.getElementById('donate-button-container').style.display = 'none';
+            document.getElementById('donate-button-newtab').style.display = 'inline';
+        }
+        else {
+            document.getElementById('donate-button-container').style.display = 'inline';
+            document.getElementById('donate-button-newtab').style.display = 'none';
+        }
+    }
+</script> -->
+
 <li class="nav-item">
-<div id="donate-button-container">
+<a class="nav-link" href="https://www.paypal.com/donate/?hosted_button_id=WY37N36CJ7FQG" target="_blank" id="donate-button-newtab" style="display:none"><button class="button-18" role="button">Faire un don</button></a>
+<div id="donate-button-container" style="display:none">
     <div id="donate-button"></div>
     <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
     <script>
@@ -101,7 +115,20 @@
     </div>    
 </li>
 
-
+<script>
+    // let firefoxAgent = userAgentString.indexOf("Firefox") > -1;
+    // if (firefoxAgent) {
+    let userAgent = navigator.userAgent;
+    // if ($.browser.mozilla) 
+    if(userAgent.match(/firefox|fxios/i))
+    {
+        document.getElementById('donate-button-container').style.display = 'none';
+        document.getElementById('donate-button-newtab').style.display = 'inline';
+    } else {
+        document.getElementById('donate-button-container').style.display = 'inline';
+        document.getElementById('donate-button-newtab').style.display = 'none';
+    }
+</script>
 
             </ul>
             <ul class="navbar-nav ml-auto d-flex align-items-center">

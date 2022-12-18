@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Forum associations 10 septembre 2011" />
 <script type="application/ld+json">
-{"headline":"Forum associations 10 septembre 2011","dateModified":"2011-09-10T00:00:00+02:00","datePublished":"2011-09-10T00:00:00+02:00","@type":"BlogPosting","author":{"@type":"Person","name":"Favre Marianne"},"url":"/forum-associations-10-septembre-2011/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Favre Marianne"},"mainEntityOfPage":{"@type":"WebPage","@id":"/forum-associations-10-septembre-2011/"},"description":"Forum des associations le samedi 10 septembre 2011, au Parc du Château de Belleville à Gif-sur-Yvette – 91190- de 10h à 18h. Nous serons très heureux de vous accueillir au stand Aide à l’Enfance du Vietnam (Chapiteau N°1)   Nous répondrons à toute demande d’information sur l’association et vous communiquerons les dernières nouvelles des Villages de Thuy Xuan, Dalat et Dong Hoi. Produits culturels et artisanaux ainsi que cartes-lettres, posters et livres seront disponibles sur le stand.","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Favre Marianne"},"@type":"BlogPosting","url":"/forum-associations-10-septembre-2011/","headline":"Forum associations 10 septembre 2011","dateModified":"2011-09-10T00:00:00+02:00","datePublished":"2011-09-10T00:00:00+02:00","description":"Forum des associations le samedi 10 septembre 2011, au Parc du Château de Belleville à Gif-sur-Yvette – 91190- de 10h à 18h. Nous serons très heureux de vous accueillir au stand Aide à l’Enfance du Vietnam (Chapiteau N°1)   Nous répondrons à toute demande d’information sur l’association et vous communiquerons les dernières nouvelles des Villages de Thuy Xuan, Dalat et Dong Hoi. Produits culturels et artisanaux ainsi que cartes-lettres, posters et livres seront disponibles sur le stand.","mainEntityOfPage":{"@type":"WebPage","@id":"/forum-associations-10-septembre-2011/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Favre Marianne"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -81,8 +81,22 @@
 <!-- <li class="nav-item">
 <a class="nav-link" href="/donate.html"><button class="button-18" role="button">Faire un don</button></a>
 </li> -->
+<!-- <script>
+    function showDivAttid(){
+        if ($.browser.mozilla) {
+            document.getElementById('donate-button-container').style.display = 'none';
+            document.getElementById('donate-button-newtab').style.display = 'inline';
+        }
+        else {
+            document.getElementById('donate-button-container').style.display = 'inline';
+            document.getElementById('donate-button-newtab').style.display = 'none';
+        }
+    }
+</script> -->
+
 <li class="nav-item">
-<div id="donate-button-container">
+<a class="nav-link" href="https://www.paypal.com/donate/?hosted_button_id=WY37N36CJ7FQG" target="_blank" id="donate-button-newtab" style="display:none"><button class="button-18" role="button">Faire un don</button></a>
+<div id="donate-button-container" style="display:none">
     <div id="donate-button"></div>
     <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
     <script>
@@ -101,7 +115,20 @@
     </div>    
 </li>
 
-
+<script>
+    // let firefoxAgent = userAgentString.indexOf("Firefox") > -1;
+    // if (firefoxAgent) {
+    let userAgent = navigator.userAgent;
+    // if ($.browser.mozilla) 
+    if(userAgent.match(/firefox|fxios/i))
+    {
+        document.getElementById('donate-button-container').style.display = 'none';
+        document.getElementById('donate-button-newtab').style.display = 'inline';
+    } else {
+        document.getElementById('donate-button-container').style.display = 'inline';
+        document.getElementById('donate-button-newtab').style.display = 'none';
+    }
+</script>
 
             </ul>
             <ul class="navbar-nav ml-auto d-flex align-items-center">

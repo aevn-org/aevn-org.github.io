@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Gâteau végétarien (recette de Cô Nga)" />
 <script type="application/ld+json">
-{"headline":"Gâteau végétarien (recette de Cô Nga)","dateModified":"2014-04-11T23:00:00+02:00","datePublished":"2014-04-11T23:00:00+02:00","@type":"BlogPosting","author":{"@type":"Person","name":"Donald CALAS"},"url":"/gateau-vegetarien-recette-de-co-nga/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Donald CALAS"},"mainEntityOfPage":{"@type":"WebPage","@id":"/gateau-vegetarien-recette-de-co-nga/"},"description":"Le gâteau végétarien (pâté de tapioca) ou « Banh Loc Chay » Temps de préparation : 3h Ingrédients (6 personnes)-    Farine de Tapioca 500gr-    Carottes 200gr-    Tofu 300gr-    Champignons Noirs 100gr -    Feuilles de Bananier (peut-être remplacé par du papier sulfurisé)-    Piment, épices, sel, poivre, sucre, oignons, huile-    Nước măm (sauce à base de poisson) Préparation1. Faire sécher les feuilles de bananier au soleil pendant 30 min ou au dessus du feu pendant quelques minutes : les feuilles doivent êtres molles2. Râper les carottes et couper en lamelles le tofu et les champignons3. Faire fricasser les carottes, les champignons avec oignons, épices, huile, nuoc-mâm, sel et poivre. Y ajouter ensuite le tofu et un peu de piment. 4. Mettre dans un saladier la farine de tapioca et verser petit à petit de l’eau chaude. Bien mélanger (il ne faut pas de grumeaux), la pâte doit devenir comme une pâte à gâteau assez épaisse et collante.5. Couper ensuite les feuilles de bananier pour faire des rectangles. Y ajouter au milieu, un peu de pâte à tapioca et dessus la mixture préparée étape 3. Empaquettez cela comme un paquet cadeau, aidez vous de la feuille de bananier afin de maintenir le « paquet » fermé. 6. Faire bouillir tout vos « paquets » dits « banh loc » à la vapeur durant 30 min. Pour savoir si cela est suffisamment cuit, la mixture doit se détacher facilement, dans son entier, de la feuille de bananier. Vous pouvez déguster, à servir avec un bol de nước măm!","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Donald CALAS"},"@type":"BlogPosting","url":"/gateau-vegetarien-recette-de-co-nga/","headline":"Gâteau végétarien (recette de Cô Nga)","dateModified":"2014-04-11T23:00:00+02:00","datePublished":"2014-04-11T23:00:00+02:00","description":"Le gâteau végétarien (pâté de tapioca) ou « Banh Loc Chay » Temps de préparation : 3h Ingrédients (6 personnes)-    Farine de Tapioca 500gr-    Carottes 200gr-    Tofu 300gr-    Champignons Noirs 100gr -    Feuilles de Bananier (peut-être remplacé par du papier sulfurisé)-    Piment, épices, sel, poivre, sucre, oignons, huile-    Nước măm (sauce à base de poisson) Préparation1. Faire sécher les feuilles de bananier au soleil pendant 30 min ou au dessus du feu pendant quelques minutes : les feuilles doivent êtres molles2. Râper les carottes et couper en lamelles le tofu et les champignons3. Faire fricasser les carottes, les champignons avec oignons, épices, huile, nuoc-mâm, sel et poivre. Y ajouter ensuite le tofu et un peu de piment. 4. Mettre dans un saladier la farine de tapioca et verser petit à petit de l’eau chaude. Bien mélanger (il ne faut pas de grumeaux), la pâte doit devenir comme une pâte à gâteau assez épaisse et collante.5. Couper ensuite les feuilles de bananier pour faire des rectangles. Y ajouter au milieu, un peu de pâte à tapioca et dessus la mixture préparée étape 3. Empaquettez cela comme un paquet cadeau, aidez vous de la feuille de bananier afin de maintenir le « paquet » fermé. 6. Faire bouillir tout vos « paquets » dits « banh loc » à la vapeur durant 30 min. Pour savoir si cela est suffisamment cuit, la mixture doit se détacher facilement, dans son entier, de la feuille de bananier. Vous pouvez déguster, à servir avec un bol de nước măm!","mainEntityOfPage":{"@type":"WebPage","@id":"/gateau-vegetarien-recette-de-co-nga/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Donald CALAS"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -81,8 +81,22 @@
 <!-- <li class="nav-item">
 <a class="nav-link" href="/donate.html"><button class="button-18" role="button">Faire un don</button></a>
 </li> -->
+<!-- <script>
+    function showDivAttid(){
+        if ($.browser.mozilla) {
+            document.getElementById('donate-button-container').style.display = 'none';
+            document.getElementById('donate-button-newtab').style.display = 'inline';
+        }
+        else {
+            document.getElementById('donate-button-container').style.display = 'inline';
+            document.getElementById('donate-button-newtab').style.display = 'none';
+        }
+    }
+</script> -->
+
 <li class="nav-item">
-<div id="donate-button-container">
+<a class="nav-link" href="https://www.paypal.com/donate/?hosted_button_id=WY37N36CJ7FQG" target="_blank" id="donate-button-newtab" style="display:none"><button class="button-18" role="button">Faire un don</button></a>
+<div id="donate-button-container" style="display:none">
     <div id="donate-button"></div>
     <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
     <script>
@@ -101,7 +115,20 @@
     </div>    
 </li>
 
-
+<script>
+    // let firefoxAgent = userAgentString.indexOf("Firefox") > -1;
+    // if (firefoxAgent) {
+    let userAgent = navigator.userAgent;
+    // if ($.browser.mozilla) 
+    if(userAgent.match(/firefox|fxios/i))
+    {
+        document.getElementById('donate-button-container').style.display = 'none';
+        document.getElementById('donate-button-newtab').style.display = 'inline';
+    } else {
+        document.getElementById('donate-button-container').style.display = 'inline';
+        document.getElementById('donate-button-newtab').style.display = 'none';
+    }
+</script>
 
             </ul>
             <ul class="navbar-nav ml-auto d-flex align-items-center">

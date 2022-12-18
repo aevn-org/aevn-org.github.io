@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Résultats scolaires 2011 à Thuy Xuan" />
 <script type="application/ld+json">
-{"headline":"Résultats scolaires 2011 à Thuy Xuan","dateModified":"2010-03-09T12:27:00+01:00","datePublished":"2010-03-09T12:27:00+01:00","@type":"BlogPosting","author":{"@type":"Person","name":"Administrator"},"url":"/resultats-scolaires-2011-a-thuy-xuan/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Administrator"},"mainEntityOfPage":{"@type":"WebPage","@id":"/resultats-scolaires-2011-a-thuy-xuan/"},"description":"Excellents résultats scolaires des enfants du centre de Thuy Xuan   Les journaux vietnamiens  Dan tri et Vnexpress se sont fait l&#39;écho des bons résultats des enfants du centre au baccalauréat (cliquer sur les liens pour voir la photo des jeunes lauréats). Pour ceux d&#39;entre nous qui ne lisent pas couramment le vietnamien, Minh notre interprète sur Thuy Xuan a fait la traduction suivante: &quot;Sept enfants de Thuy Xuan ont passé le baccalauréat cette année et tous l&#39;ont réussi. Six d&#39;entre eux entrent à l&#39;Université et un à l&#39;école supérieure.Malgré des histoires personnelles difficiles, les enfants réussissent pour la plupart leur scolarité et veulent ainsi aider leurs parents.Ly par exemple, dont la mère est morte lorsqu&#39;elle était en primaire a été accueillie au village de Thuy Xuan avec ses frères et soeurs. Elle rêve de devenir professeur afin d&#39;aider sa famille.Madame Hong, la Directrice de Thuy Xuan aide les enfants tout au long de leur scolarité et les conseille dès la seconde dans leur orientation.Le Centre de Thuy Xuan fonctionne maintenant depuis plus de 10 ans. Certains étudiants ont été envoyés en France et au Japon afin de poursuivre leurs études.&quot;","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Administrator"},"@type":"BlogPosting","url":"/resultats-scolaires-2011-a-thuy-xuan/","headline":"Résultats scolaires 2011 à Thuy Xuan","dateModified":"2010-03-09T12:27:00+01:00","datePublished":"2010-03-09T12:27:00+01:00","description":"Excellents résultats scolaires des enfants du centre de Thuy Xuan   Les journaux vietnamiens  Dan tri et Vnexpress se sont fait l&#39;écho des bons résultats des enfants du centre au baccalauréat (cliquer sur les liens pour voir la photo des jeunes lauréats). Pour ceux d&#39;entre nous qui ne lisent pas couramment le vietnamien, Minh notre interprète sur Thuy Xuan a fait la traduction suivante: &quot;Sept enfants de Thuy Xuan ont passé le baccalauréat cette année et tous l&#39;ont réussi. Six d&#39;entre eux entrent à l&#39;Université et un à l&#39;école supérieure.Malgré des histoires personnelles difficiles, les enfants réussissent pour la plupart leur scolarité et veulent ainsi aider leurs parents.Ly par exemple, dont la mère est morte lorsqu&#39;elle était en primaire a été accueillie au village de Thuy Xuan avec ses frères et soeurs. Elle rêve de devenir professeur afin d&#39;aider sa famille.Madame Hong, la Directrice de Thuy Xuan aide les enfants tout au long de leur scolarité et les conseille dès la seconde dans leur orientation.Le Centre de Thuy Xuan fonctionne maintenant depuis plus de 10 ans. Certains étudiants ont été envoyés en France et au Japon afin de poursuivre leurs études.&quot;","mainEntityOfPage":{"@type":"WebPage","@id":"/resultats-scolaires-2011-a-thuy-xuan/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Administrator"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -81,8 +81,22 @@
 <!-- <li class="nav-item">
 <a class="nav-link" href="/donate.html"><button class="button-18" role="button">Faire un don</button></a>
 </li> -->
+<!-- <script>
+    function showDivAttid(){
+        if ($.browser.mozilla) {
+            document.getElementById('donate-button-container').style.display = 'none';
+            document.getElementById('donate-button-newtab').style.display = 'inline';
+        }
+        else {
+            document.getElementById('donate-button-container').style.display = 'inline';
+            document.getElementById('donate-button-newtab').style.display = 'none';
+        }
+    }
+</script> -->
+
 <li class="nav-item">
-<div id="donate-button-container">
+<a class="nav-link" href="https://www.paypal.com/donate/?hosted_button_id=WY37N36CJ7FQG" target="_blank" id="donate-button-newtab" style="display:none"><button class="button-18" role="button">Faire un don</button></a>
+<div id="donate-button-container" style="display:none">
     <div id="donate-button"></div>
     <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
     <script>
@@ -101,7 +115,20 @@
     </div>    
 </li>
 
-
+<script>
+    // let firefoxAgent = userAgentString.indexOf("Firefox") > -1;
+    // if (firefoxAgent) {
+    let userAgent = navigator.userAgent;
+    // if ($.browser.mozilla) 
+    if(userAgent.match(/firefox|fxios/i))
+    {
+        document.getElementById('donate-button-container').style.display = 'none';
+        document.getElementById('donate-button-newtab').style.display = 'inline';
+    } else {
+        document.getElementById('donate-button-container').style.display = 'inline';
+        document.getElementById('donate-button-newtab').style.display = 'none';
+    }
+</script>
 
             </ul>
             <ul class="navbar-nav ml-auto d-flex align-items-center">

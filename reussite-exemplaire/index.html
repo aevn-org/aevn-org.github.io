@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Reussite exemplaire" />
 <script type="application/ld+json">
-{"headline":"Reussite exemplaire","dateModified":"2015-12-02T23:00:00+01:00","datePublished":"2015-12-02T23:00:00+01:00","@type":"BlogPosting","author":{"@type":"Person","name":"Donald CALAS"},"url":"/reussite-exemplaire/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Donald CALAS"},"mainEntityOfPage":{"@type":"WebPage","@id":"/reussite-exemplaire/"},"description":"La réussite exemplaire d&#39;un enfant du Village de Dalat L&#39;AEVN a toujours mis l&#39;accent sur l&#39;éducation et la progression scolaire, afin de donner aux enfants les meilleures chances de bien démarrer dans la vie. NGUYEN Mac Khai n&#39;avait qu&#39;un mois lorsqu&#39;il fut confié au village SOS de Dalat. Il n&#39;était encore qu&#39;un enfant en 2004, lorsqu&#39;il fut choisi pour dire, en français, le compliment préparé à l&#39;occasion de l&#39;inauguration de la bibliothèque offerte par le ROTARY Club. C&#39;est à cette occasion qu&#39;Yves Coutelier le rencontre et devient son parrain. Il quitte plus tard le village pour poursuivre de brillantes études d&#39;économie à l&#39;Université de Ho Chi Minh City, toujours avec l&#39;aide de l&#39;AEVN et de son parrain. Terminant ses études à l&#39;été 2016, il est dors et déjà embauché par une des plus grandes firmes internationales d&#39;audit et de conseil. Mac Khai en 2004 à Dalat, disant son compliment en français. Mac Khai en 2015 à l&#39;Université de Ho Chi Minh City (Saïgon), recevant le premier prix du concours organisé pour les étudiants en Finance et Comptabilité.","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Donald CALAS"},"@type":"BlogPosting","url":"/reussite-exemplaire/","headline":"Reussite exemplaire","dateModified":"2015-12-02T23:00:00+01:00","datePublished":"2015-12-02T23:00:00+01:00","description":"La réussite exemplaire d&#39;un enfant du Village de Dalat L&#39;AEVN a toujours mis l&#39;accent sur l&#39;éducation et la progression scolaire, afin de donner aux enfants les meilleures chances de bien démarrer dans la vie. NGUYEN Mac Khai n&#39;avait qu&#39;un mois lorsqu&#39;il fut confié au village SOS de Dalat. Il n&#39;était encore qu&#39;un enfant en 2004, lorsqu&#39;il fut choisi pour dire, en français, le compliment préparé à l&#39;occasion de l&#39;inauguration de la bibliothèque offerte par le ROTARY Club. C&#39;est à cette occasion qu&#39;Yves Coutelier le rencontre et devient son parrain. Il quitte plus tard le village pour poursuivre de brillantes études d&#39;économie à l&#39;Université de Ho Chi Minh City, toujours avec l&#39;aide de l&#39;AEVN et de son parrain. Terminant ses études à l&#39;été 2016, il est dors et déjà embauché par une des plus grandes firmes internationales d&#39;audit et de conseil. Mac Khai en 2004 à Dalat, disant son compliment en français. Mac Khai en 2015 à l&#39;Université de Ho Chi Minh City (Saïgon), recevant le premier prix du concours organisé pour les étudiants en Finance et Comptabilité.","mainEntityOfPage":{"@type":"WebPage","@id":"/reussite-exemplaire/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Donald CALAS"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -81,8 +81,22 @@
 <!-- <li class="nav-item">
 <a class="nav-link" href="/donate.html"><button class="button-18" role="button">Faire un don</button></a>
 </li> -->
+<!-- <script>
+    function showDivAttid(){
+        if ($.browser.mozilla) {
+            document.getElementById('donate-button-container').style.display = 'none';
+            document.getElementById('donate-button-newtab').style.display = 'inline';
+        }
+        else {
+            document.getElementById('donate-button-container').style.display = 'inline';
+            document.getElementById('donate-button-newtab').style.display = 'none';
+        }
+    }
+</script> -->
+
 <li class="nav-item">
-<div id="donate-button-container">
+<a class="nav-link" href="https://www.paypal.com/donate/?hosted_button_id=WY37N36CJ7FQG" target="_blank" id="donate-button-newtab" style="display:none"><button class="button-18" role="button">Faire un don</button></a>
+<div id="donate-button-container" style="display:none">
     <div id="donate-button"></div>
     <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
     <script>
@@ -101,7 +115,20 @@
     </div>    
 </li>
 
-
+<script>
+    // let firefoxAgent = userAgentString.indexOf("Firefox") > -1;
+    // if (firefoxAgent) {
+    let userAgent = navigator.userAgent;
+    // if ($.browser.mozilla) 
+    if(userAgent.match(/firefox|fxios/i))
+    {
+        document.getElementById('donate-button-container').style.display = 'none';
+        document.getElementById('donate-button-newtab').style.display = 'inline';
+    } else {
+        document.getElementById('donate-button-container').style.display = 'inline';
+        document.getElementById('donate-button-newtab').style.display = 'none';
+    }
+</script>
 
             </ul>
             <ul class="navbar-nav ml-auto d-flex align-items-center">

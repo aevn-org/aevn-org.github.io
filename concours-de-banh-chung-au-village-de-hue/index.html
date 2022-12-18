@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Concours de Banh Chung au village de Hué" />
 <script type="application/ld+json">
-{"headline":"Concours de Banh Chung au village de Hué","dateModified":"2018-02-17T17:51:42+01:00","datePublished":"2018-02-17T17:51:42+01:00","@type":"BlogPosting","author":{"@type":"Person","name":"Donald CALAS"},"url":"/concours-de-banh-chung-au-village-de-hue/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Donald CALAS"},"mainEntityOfPage":{"@type":"WebPage","@id":"/concours-de-banh-chung-au-village-de-hue/"},"description":"Nouvel An vietnamien au village de Hué: concours de &quot;Banh Chung&quot; (gâteau du Têt) Connaissez-vous le &quot;Banh Chung&quot;? C&#39;est le plat traditionnel que les vietnamiens dégustent pour le Nouvel An: un gâteau de riz gluant farci entre autres avec de la pâte de haricots et de la poitrine de porc, enveloppé dans des feuilles de bananier et cuit pendant très longtemps. Une compétition de Banh Chung a été organisée au village de SOS de Hué, et Binh, interprète en poste au village, nous a envoyé un message avec quelques photos:&quot;Les mères et les enfants ont fait les Banh Chung à leur façon... Il faisait beau ce jour là après de longs jours de pluie. Cela nous encourageait à donner aux enfants un Têt special. Chaque maison a reçu un prix...&quot; Une petite note sur l&#39;histoire du Banh Chung:D&#39;après la légende, rapportée ici en raccourci, la recette du Banh Chung est elle-même le résultat d&#39;un concours organisé par un roi pour désigner lequel de ses trois fils devait lui succéder. Il fallait rapporter avant la fin de l&#39;année le mets le plus délicieux. Les deux fils les plus âgés partirent courir le monde pour rapporter des plats extraordinaires. Le plus jeune, qui ne pouvait se permettre de tels voyages, resta au pays et inventa le Banh Chung, qui ne comporte que les ingrédients les plus simples disponibles sur place; il remporta bien sûr la compétition. Préparation des Banh Chung Banh Chung prêts à cuire Préparation de la cuisson Cuisson des Banh Chung Remise des prix","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Donald CALAS"},"@type":"BlogPosting","url":"/concours-de-banh-chung-au-village-de-hue/","headline":"Concours de Banh Chung au village de Hué","dateModified":"2018-02-17T17:51:42+01:00","datePublished":"2018-02-17T17:51:42+01:00","description":"Nouvel An vietnamien au village de Hué: concours de &quot;Banh Chung&quot; (gâteau du Têt) Connaissez-vous le &quot;Banh Chung&quot;? C&#39;est le plat traditionnel que les vietnamiens dégustent pour le Nouvel An: un gâteau de riz gluant farci entre autres avec de la pâte de haricots et de la poitrine de porc, enveloppé dans des feuilles de bananier et cuit pendant très longtemps. Une compétition de Banh Chung a été organisée au village de SOS de Hué, et Binh, interprète en poste au village, nous a envoyé un message avec quelques photos:&quot;Les mères et les enfants ont fait les Banh Chung à leur façon... Il faisait beau ce jour là après de longs jours de pluie. Cela nous encourageait à donner aux enfants un Têt special. Chaque maison a reçu un prix...&quot; Une petite note sur l&#39;histoire du Banh Chung:D&#39;après la légende, rapportée ici en raccourci, la recette du Banh Chung est elle-même le résultat d&#39;un concours organisé par un roi pour désigner lequel de ses trois fils devait lui succéder. Il fallait rapporter avant la fin de l&#39;année le mets le plus délicieux. Les deux fils les plus âgés partirent courir le monde pour rapporter des plats extraordinaires. Le plus jeune, qui ne pouvait se permettre de tels voyages, resta au pays et inventa le Banh Chung, qui ne comporte que les ingrédients les plus simples disponibles sur place; il remporta bien sûr la compétition. Préparation des Banh Chung Banh Chung prêts à cuire Préparation de la cuisson Cuisson des Banh Chung Remise des prix","mainEntityOfPage":{"@type":"WebPage","@id":"/concours-de-banh-chung-au-village-de-hue/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Donald CALAS"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -81,8 +81,22 @@
 <!-- <li class="nav-item">
 <a class="nav-link" href="/donate.html"><button class="button-18" role="button">Faire un don</button></a>
 </li> -->
+<!-- <script>
+    function showDivAttid(){
+        if ($.browser.mozilla) {
+            document.getElementById('donate-button-container').style.display = 'none';
+            document.getElementById('donate-button-newtab').style.display = 'inline';
+        }
+        else {
+            document.getElementById('donate-button-container').style.display = 'inline';
+            document.getElementById('donate-button-newtab').style.display = 'none';
+        }
+    }
+</script> -->
+
 <li class="nav-item">
-<div id="donate-button-container">
+<a class="nav-link" href="https://www.paypal.com/donate/?hosted_button_id=WY37N36CJ7FQG" target="_blank" id="donate-button-newtab" style="display:none"><button class="button-18" role="button">Faire un don</button></a>
+<div id="donate-button-container" style="display:none">
     <div id="donate-button"></div>
     <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
     <script>
@@ -101,7 +115,20 @@
     </div>    
 </li>
 
-
+<script>
+    // let firefoxAgent = userAgentString.indexOf("Firefox") > -1;
+    // if (firefoxAgent) {
+    let userAgent = navigator.userAgent;
+    // if ($.browser.mozilla) 
+    if(userAgent.match(/firefox|fxios/i))
+    {
+        document.getElementById('donate-button-container').style.display = 'none';
+        document.getElementById('donate-button-newtab').style.display = 'inline';
+    } else {
+        document.getElementById('donate-button-container').style.display = 'inline';
+        document.getElementById('donate-button-newtab').style.display = 'none';
+    }
+</script>
 
             </ul>
             <ul class="navbar-nav ml-auto d-flex align-items-center">

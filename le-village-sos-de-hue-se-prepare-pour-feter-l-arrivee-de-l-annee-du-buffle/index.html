@@ -22,7 +22,7 @@
 <meta property="twitter:image" content="/assets/images/ThuyXuan_Tet2021/AEVN_Tet2021_Picture3.png" />
 <meta property="twitter:title" content="Le Village SOS de Hué se prépare pour fêter l’arrivée de l’année du Buffle" />
 <script type="application/ld+json">
-{"headline":"Le Village SOS de Hué se prépare pour fêter l’arrivée de l’année du Buffle","dateModified":"2021-02-11T19:54:04+01:00","datePublished":"2021-02-11T19:54:04+01:00","@type":"BlogPosting","author":{"@type":"Person","name":"Khue Le"},"url":"/le-village-sos-de-hue-se-prepare-pour-feter-l-arrivee-de-l-annee-du-buffle/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Khue Le"},"mainEntityOfPage":{"@type":"WebPage","@id":"/le-village-sos-de-hue-se-prepare-pour-feter-l-arrivee-de-l-annee-du-buffle/"},"description":"Le 12 février marque le premier jour de l’année du Buffle qui fait suite à l’année du Rat selon le cycle lunaire. Dans nos rizières, le Buffle est le compagnon fidèle et paisible du paysan dans ses longues heures de labour sous le soleil brûlant. Il est le symbole de la ténacité.  Comme chaque année, les Mères de nos villages confectionnent avec les enfants, grands et petits, des “banh chung”, moments incontournables pour cette fête du Têt. Le Village SOS de Hué s’y est préparé activement. Particularité de cette année : le Président de la Province de Thua Thien Hué s’est joint aux Mères et aux Enfants dans la préparation de ce gâteau traditionnel. La cuisson au feu de bois a duré toute la nuit, avec Mères et Enfants qui veillaient joyeusement autour du feu. ","image":"/assets/images/ThuyXuan_Tet2021/AEVN_Tet2021_Picture3.png","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Khue Le"},"@type":"BlogPosting","image":"/assets/images/ThuyXuan_Tet2021/AEVN_Tet2021_Picture3.png","url":"/le-village-sos-de-hue-se-prepare-pour-feter-l-arrivee-de-l-annee-du-buffle/","headline":"Le Village SOS de Hué se prépare pour fêter l’arrivée de l’année du Buffle","dateModified":"2021-02-11T19:54:04+01:00","datePublished":"2021-02-11T19:54:04+01:00","description":"Le 12 février marque le premier jour de l’année du Buffle qui fait suite à l’année du Rat selon le cycle lunaire. Dans nos rizières, le Buffle est le compagnon fidèle et paisible du paysan dans ses longues heures de labour sous le soleil brûlant. Il est le symbole de la ténacité.  Comme chaque année, les Mères de nos villages confectionnent avec les enfants, grands et petits, des “banh chung”, moments incontournables pour cette fête du Têt. Le Village SOS de Hué s’y est préparé activement. Particularité de cette année : le Président de la Province de Thua Thien Hué s’est joint aux Mères et aux Enfants dans la préparation de ce gâteau traditionnel. La cuisson au feu de bois a duré toute la nuit, avec Mères et Enfants qui veillaient joyeusement autour du feu. ","mainEntityOfPage":{"@type":"WebPage","@id":"/le-village-sos-de-hue-se-prepare-pour-feter-l-arrivee-de-l-annee-du-buffle/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Khue Le"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -83,8 +83,22 @@
 <!-- <li class="nav-item">
 <a class="nav-link" href="/donate.html"><button class="button-18" role="button">Faire un don</button></a>
 </li> -->
+<!-- <script>
+    function showDivAttid(){
+        if ($.browser.mozilla) {
+            document.getElementById('donate-button-container').style.display = 'none';
+            document.getElementById('donate-button-newtab').style.display = 'inline';
+        }
+        else {
+            document.getElementById('donate-button-container').style.display = 'inline';
+            document.getElementById('donate-button-newtab').style.display = 'none';
+        }
+    }
+</script> -->
+
 <li class="nav-item">
-<div id="donate-button-container">
+<a class="nav-link" href="https://www.paypal.com/donate/?hosted_button_id=WY37N36CJ7FQG" target="_blank" id="donate-button-newtab" style="display:none"><button class="button-18" role="button">Faire un don</button></a>
+<div id="donate-button-container" style="display:none">
     <div id="donate-button"></div>
     <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
     <script>
@@ -103,7 +117,20 @@
     </div>    
 </li>
 
-
+<script>
+    // let firefoxAgent = userAgentString.indexOf("Firefox") > -1;
+    // if (firefoxAgent) {
+    let userAgent = navigator.userAgent;
+    // if ($.browser.mozilla) 
+    if(userAgent.match(/firefox|fxios/i))
+    {
+        document.getElementById('donate-button-container').style.display = 'none';
+        document.getElementById('donate-button-newtab').style.display = 'inline';
+    } else {
+        document.getElementById('donate-button-container').style.display = 'inline';
+        document.getElementById('donate-button-newtab').style.display = 'none';
+    }
+</script>
 
             </ul>
             <ul class="navbar-nav ml-auto d-flex align-items-center">

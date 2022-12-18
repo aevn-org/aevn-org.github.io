@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="L’AEVN au pavillon Baltard pour le Tet 2019" />
 <script type="application/ld+json">
-{"headline":"L’AEVN au pavillon Baltard pour le Tet 2019","dateModified":"2019-04-18T15:18:43+02:00","datePublished":"2019-04-18T15:18:43+02:00","@type":"BlogPosting","author":{"@type":"Person","name":"Tran Hieu"},"url":"/l-aevn-au-pavillon-baltard-pour-le-tet-2019/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Tran Hieu"},"mainEntityOfPage":{"@type":"WebPage","@id":"/l-aevn-au-pavillon-baltard-pour-le-tet-2019/"},"description":"Le samedi 9 février, l’AEVN a été présente à la fête de célébration du Têt (Nouvel An vietnamien) organisée par l’Union Générale des Vietnamiens de France (UGVF) au Pavillon Baltard (Nogent-sur-Marne), dans l’objectif d’une part de partager avec les communautés vietnamienne et française un événement culturel et d’autre part de sensibiliser le public à la cause des enfants en difficulté à laquelle l’AEVN se consacre depuis bientôt 50 ans. Nos jeunes se sont mis à installer le stand AEVN avec un enthousiasme débordant : livres sur la culture du Vietnam, des posters représentant des scènes de vie dans les zones rurales etc. Dans l’ambiance festive, notre stand a attiré de nombreux visiteurs. Il s’ensuivait alors des échanges chaleureux sur l’AEVN, montrant l’intérêt de ces visiteurs sur l’histoire et l’activité de notre association. Un grand merci à nos jeunes d’avoir animé cette belle soirée avec leur souci d’accompagner ceux qui ont tout perdu et qui rebondissent dans la vie. Un stand accueillant  plein de sourires   L&#39;installation du stand   L&#39;équipe de jeunes volontaires de l&#39;AEVN","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Tran Hieu"},"@type":"BlogPosting","url":"/l-aevn-au-pavillon-baltard-pour-le-tet-2019/","headline":"L’AEVN au pavillon Baltard pour le Tet 2019","dateModified":"2019-04-18T15:18:43+02:00","datePublished":"2019-04-18T15:18:43+02:00","description":"Le samedi 9 février, l’AEVN a été présente à la fête de célébration du Têt (Nouvel An vietnamien) organisée par l’Union Générale des Vietnamiens de France (UGVF) au Pavillon Baltard (Nogent-sur-Marne), dans l’objectif d’une part de partager avec les communautés vietnamienne et française un événement culturel et d’autre part de sensibiliser le public à la cause des enfants en difficulté à laquelle l’AEVN se consacre depuis bientôt 50 ans. Nos jeunes se sont mis à installer le stand AEVN avec un enthousiasme débordant : livres sur la culture du Vietnam, des posters représentant des scènes de vie dans les zones rurales etc. Dans l’ambiance festive, notre stand a attiré de nombreux visiteurs. Il s’ensuivait alors des échanges chaleureux sur l’AEVN, montrant l’intérêt de ces visiteurs sur l’histoire et l’activité de notre association. Un grand merci à nos jeunes d’avoir animé cette belle soirée avec leur souci d’accompagner ceux qui ont tout perdu et qui rebondissent dans la vie. Un stand accueillant  plein de sourires   L&#39;installation du stand   L&#39;équipe de jeunes volontaires de l&#39;AEVN","mainEntityOfPage":{"@type":"WebPage","@id":"/l-aevn-au-pavillon-baltard-pour-le-tet-2019/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Tran Hieu"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -81,8 +81,22 @@
 <!-- <li class="nav-item">
 <a class="nav-link" href="/donate.html"><button class="button-18" role="button">Faire un don</button></a>
 </li> -->
+<!-- <script>
+    function showDivAttid(){
+        if ($.browser.mozilla) {
+            document.getElementById('donate-button-container').style.display = 'none';
+            document.getElementById('donate-button-newtab').style.display = 'inline';
+        }
+        else {
+            document.getElementById('donate-button-container').style.display = 'inline';
+            document.getElementById('donate-button-newtab').style.display = 'none';
+        }
+    }
+</script> -->
+
 <li class="nav-item">
-<div id="donate-button-container">
+<a class="nav-link" href="https://www.paypal.com/donate/?hosted_button_id=WY37N36CJ7FQG" target="_blank" id="donate-button-newtab" style="display:none"><button class="button-18" role="button">Faire un don</button></a>
+<div id="donate-button-container" style="display:none">
     <div id="donate-button"></div>
     <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
     <script>
@@ -101,7 +115,20 @@
     </div>    
 </li>
 
-
+<script>
+    // let firefoxAgent = userAgentString.indexOf("Firefox") > -1;
+    // if (firefoxAgent) {
+    let userAgent = navigator.userAgent;
+    // if ($.browser.mozilla) 
+    if(userAgent.match(/firefox|fxios/i))
+    {
+        document.getElementById('donate-button-container').style.display = 'none';
+        document.getElementById('donate-button-newtab').style.display = 'inline';
+    } else {
+        document.getElementById('donate-button-container').style.display = 'inline';
+        document.getElementById('donate-button-newtab').style.display = 'none';
+    }
+</script>
 
             </ul>
             <ul class="navbar-nav ml-auto d-flex align-items-center">

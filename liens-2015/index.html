@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Liens 2015" />
 <script type="application/ld+json">
-{"headline":"Liens 2015","dateModified":"2015-12-28T23:00:00+01:00","datePublished":"2015-12-28T23:00:00+01:00","@type":"BlogPosting","author":{"@type":"Person","name":"Administrator"},"url":"/liens-2015/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Administrator"},"mainEntityOfPage":{"@type":"WebPage","@id":"/liens-2015/"},"description":"Numéro du &quot;Lien&quot; de décembre 2015 Cliquez sur l&#39;image pour voir ou sauvegarder le bulletin d&#39;information.    Editorial Le 17ème Village SOS et Cérémonie de transfert du Centre de Thuy Xuan Construction de nouvelles maisons Nouvelles des villages Heureux anniversaires et généreuses initiatives Retrouvailles au Vietnam Ma vie au Centre de Thuy Xuan Lettre de Hanh Nguyen Nos visites aux villages cet été Au village SOS Hué, nouvelles de dernière minute Campagne de partage Noel 2015","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Administrator"},"@type":"BlogPosting","url":"/liens-2015/","headline":"Liens 2015","dateModified":"2015-12-28T23:00:00+01:00","datePublished":"2015-12-28T23:00:00+01:00","description":"Numéro du &quot;Lien&quot; de décembre 2015 Cliquez sur l&#39;image pour voir ou sauvegarder le bulletin d&#39;information.    Editorial Le 17ème Village SOS et Cérémonie de transfert du Centre de Thuy Xuan Construction de nouvelles maisons Nouvelles des villages Heureux anniversaires et généreuses initiatives Retrouvailles au Vietnam Ma vie au Centre de Thuy Xuan Lettre de Hanh Nguyen Nos visites aux villages cet été Au village SOS Hué, nouvelles de dernière minute Campagne de partage Noel 2015","mainEntityOfPage":{"@type":"WebPage","@id":"/liens-2015/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.jpg"},"name":"Administrator"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -81,8 +81,22 @@
 <!-- <li class="nav-item">
 <a class="nav-link" href="/donate.html"><button class="button-18" role="button">Faire un don</button></a>
 </li> -->
+<!-- <script>
+    function showDivAttid(){
+        if ($.browser.mozilla) {
+            document.getElementById('donate-button-container').style.display = 'none';
+            document.getElementById('donate-button-newtab').style.display = 'inline';
+        }
+        else {
+            document.getElementById('donate-button-container').style.display = 'inline';
+            document.getElementById('donate-button-newtab').style.display = 'none';
+        }
+    }
+</script> -->
+
 <li class="nav-item">
-<div id="donate-button-container">
+<a class="nav-link" href="https://www.paypal.com/donate/?hosted_button_id=WY37N36CJ7FQG" target="_blank" id="donate-button-newtab" style="display:none"><button class="button-18" role="button">Faire un don</button></a>
+<div id="donate-button-container" style="display:none">
     <div id="donate-button"></div>
     <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
     <script>
@@ -101,7 +115,20 @@
     </div>    
 </li>
 
-
+<script>
+    // let firefoxAgent = userAgentString.indexOf("Firefox") > -1;
+    // if (firefoxAgent) {
+    let userAgent = navigator.userAgent;
+    // if ($.browser.mozilla) 
+    if(userAgent.match(/firefox|fxios/i))
+    {
+        document.getElementById('donate-button-container').style.display = 'none';
+        document.getElementById('donate-button-newtab').style.display = 'inline';
+    } else {
+        document.getElementById('donate-button-container').style.display = 'inline';
+        document.getElementById('donate-button-newtab').style.display = 'none';
+    }
+</script>
 
             </ul>
             <ul class="navbar-nav ml-auto d-flex align-items-center">
