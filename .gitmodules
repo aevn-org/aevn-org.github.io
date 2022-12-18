@@ -1,4 +1,0 @@
-[submodule "_site"]
-	path = _site
-	url = https://github.com/aevn-org/aevn-org.github.io.git
-	branch = main
