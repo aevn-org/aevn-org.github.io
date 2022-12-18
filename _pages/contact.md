@@ -1,12 +1,12 @@
 ---
-title: "Contact"
+title: "Nous contacter"
 permalink: "/contact.html"
 ---
 
 <!-- <iframe src="contact-form.html" class="container"></iframe> -->
 
 <form action="https://formspree.io/f/mayzwqoe" method="POST">    
-    <p class="mb-4">Merci d'utiliser le formulaire ci-dessous pour contacter {{site.name}}. Nous allons vous répondre dans les meilleurs délais.</p>
+    <p class="mb-4">Pour nous contacter, merci d'envoyer un courriel à l'adresse <a target="_blank" href="mailto:contact@aevn.org">contact@aevn.org</a>, ou d'utiliser le formulaire ci-dessous. Nous allons vous répondre dans les meilleurs délais.</p>
     <div class="form-group row">
     <div class="col-md-6">
     <input class="form-control" type="text" name="name" placeholder="Nom*" required>
